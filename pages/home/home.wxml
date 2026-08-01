@@ -1,0 +1,23 @@
+<view class="page">
+  <!-- 壁纸卡片 + 鼓励语 -->
+  <view class="card-wallpaper">
+    <image class="bg-img" src="{{wallpaper}}" mode="aspectFill" lazy-load="{{true}}" binderror="onImageError" />
+    <text class="quote-text">{{quote}}</text>
+  </view>
+
+  <!-- 引导语 -->
+  <view class="card guide-card">
+    <text class="guide-title" bindlongpress="onAdminTap">个人台账</text>
+    <text class="guide-text">{{tip}}</text>
+    <view class="guide-tabs">
+      <view class="guide-item" data-path="/pages/work/index/index" bindtap="onGuideTap">
+        <text class="guide-icon">⏱️</text>
+        <text class="guide-name">工时</text>
+      </view>
+      <view class="guide-item" data-path="/pages/ledger/index/index" bindtap="onGuideTap">
+        <text class="guide-icon">💰</text>
+        <text class="guide-name">账簿</text>
+      </view>
+    </view>
+  </view>
+</view>

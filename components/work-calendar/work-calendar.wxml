@@ -1,0 +1,31 @@
+<!-- components/work-calendar/work-calendar.wxml -->
+<view class="cal">
+  <view class="cal-header">
+    <view class="cal-arrow" bindtap="onPrev">‹</view>
+    <view class="cal-title" bindlongpress="onYearLongPress">{{year}}年{{month}}月</view>
+    <view class="cal-arrow" bindtap="onNext">›</view>
+  </view>
+  <view class="cal-week">
+    <text class="cal-week-item">日</text>
+    <text class="cal-week-item">一</text>
+    <text class="cal-week-item">二</text>
+    <text class="cal-week-item">三</text>
+    <text class="cal-week-item">四</text>
+    <text class="cal-week-item">五</text>
+    <text class="cal-week-item">六</text>
+  </view>
+  <view class="cal-grid">
+    <view
+      wx:for="{{cells}}"
+      wx:key="index"
+      class="cal-cell {{item.isToday ? 'today' : ''}} {{item.isSelected ? 'selected' : ''}} {{item.isCurrentMonth ? '' : 'other'}}"
+      bindtap="onTap"
+      bindlongpress="onLongPress"
+      data-date="{{item.dateStr}}"
+      data-has="{{item.hasRecord}}"
+    >
+      <text class="cal-day">{{item.day}}</text>
+      <text class="cal-hours" wx:if="{{item.hasRecord}}">{{item.hoursText}}</text>
+    </view>
+  </view>
+</view>

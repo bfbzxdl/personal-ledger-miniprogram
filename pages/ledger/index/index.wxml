@@ -1,0 +1,99 @@
+<!-- pages/ledger/index/index.wxml -->
+<view class="page">
+
+  <!-- 月份切换 + 月度统计卡片 -->
+  <view class="card month-card">
+    <view class="month-header">
+      <view class="month-arrow" bindtap="onPrevMonth">‹</view>
+      <view class="month-title">{{viewYear}}年{{viewMonth}}月</view>
+      <view class="month-arrow" bindtap="onNextMonth">›</view>
+    </view>
+    <view class="summary-row">
+      <view class="summary-item">
+        <text class="summary-label">收入</text>
+        <text class="summary-value income">+{{summary.incomeText}}</text>
+      </view>
+      <view class="summary-item">
+        <text class="summary-label">支出</text>
+        <text class="summary-value expense">-{{summary.expenseText}}</text>
+      </view>
+      <view class="summary-item">
+        <text class="summary-label">结余</text>
+        <text class="summary-value balance">{{summary.balanceText}}</text>
+      </view>
+    </view>
+  </view>
+
+    <!-- 记一笔表单卡片 -->
+    <view class="card form-card">
+      <view class="form-title">记一笔</view>
+
+      <!-- 日期 -->
+      <view class="field">
+        <text class="field-label">日期</text>
+        <picker mode="date" value="{{form.date}}" bindchange="onDateChange">
+          <text class="field-value">{{form.date}} ›</text>
+        </picker>
+      </view>
+
+      <!-- 类型切换 -->
+      <view class="type-tabs">
+      <view class="type-tab {{form.type === 'expense' ? 'active expense' : ''}}" bindtap="onTypeChange" data-type="expense">支出</view>
+      <view class="type-tab {{form.type === 'income' ? 'active income' : ''}}" bindtap="onTypeChange" data-type="income">收入</view>
+    </view>
+
+    <!-- 金额 -->
+    <view class="field">
+      <text class="field-label">金额</text>
+      <input class="field-input" type="digit" placeholder="0.00" value="{{form.amount}}" bindinput="onAmountInput" />
+    </view>
+
+    <!-- 分类 -->
+    <picker mode="selector" range="{{categories}}" range-key="name" value="{{categoryIndex}}" bindchange="onCategoryChange">
+      <view class="field">
+        <text class="field-label">分类</text>
+        <text class="field-value">{{categories[categoryIndex].icon}} {{form.category}} ›</text>
+      </view>
+    </picker>
+
+    <!-- 备注 -->
+    <view class="field">
+      <text class="field-label">备注</text>
+      <input class="field-input" placeholder="选填，最多20字" value="{{form.note}}" maxlength="20" bindinput="onNoteInput" />
+    </view>
+
+    <button class="submit-btn" bindtap="onSubmit">保存</button>
+  </view>
+
+  <!-- 流水列表卡片 -->
+  <view class="card list-card">
+    <view class="form-title">流水</view>
+
+    <view wx:for="{{groups}}" wx:key="date" wx:for-item="group" class="group">
+      <view class="group-label">{{group.label}}</view>
+      <view
+        wx:for="{{group.list}}"
+        wx:key="id"
+        class="record-item"
+        bindlongpress="onLongPress"
+        data-record="{{item}}"
+      >
+        <view class="record-left">
+          <text class="record-icon">{{item.type === 'income' ? '💰' : item.categoryIcon}}</text>
+          <view class="record-info">
+            <view class="record-title-row">
+              <text class="record-category">{{item.category}}</text>
+              <text class="record-note-icon" wx:if="{{item.note}}" bindtap="onTapNote" data-note="{{item.note}}">📝</text>
+            </view>
+          </view>
+        </view>
+        <text class="record-amount {{item.type === 'income' ? 'income' : 'expense'}}">{{item.type === 'income' ? '+' : '-'}}{{item.amountText}}</text>
+      </view>
+    </view>
+
+    <view class="empty" wx:if="{{groups.length === 0}}">
+      <text>本月暂无流水，记一笔吧</text>
+    </view>
+  </view>
+
+</view>

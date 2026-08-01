@@ -1,0 +1,42 @@
+/* pages/admin/admin.wxss */
+.page {
+  padding: 24rpx 0 60rpx;
+}
+
+.admin-title {
+  font-size: 32rpx;
+  font-weight: 700;
+  color: #333333;
+  margin-bottom: 12rpx;
+}
+
+.admin-tip {
+  display: block;
+  font-size: 24rpx;
+  color: #999999;
+  margin-bottom: 20rpx;
+}
+
+.admin-btn {
+  margin-top: 20rpx;
+  background: #07c160;
+  color: #ffffff;
+  border-radius: 16rpx;
+  font-size: 30rpx;
+  font-weight: 600;
+}
+
+.admin-btn::after {
+  border: none;
+}
+
+.admin-btn.danger {
+  background: #e64340;
+}
+
+.result-text {
+  font-size: 26rpx;
+  color: #333333;
+  line-height: 1.7;
+  word-break: break-all;
+}

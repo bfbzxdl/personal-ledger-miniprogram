@@ -1,0 +1,73 @@
+<!-- pages/work/detail/detail.wxml -->
+<view class="page">
+
+  <view class="card header">
+    <text class="header-date">{{date}}</text>
+    <text class="header-total">当天总工时：{{dayTotal}}h</text>
+  </view>
+
+  <view class="card list">
+    <view
+      wx:for="{{dayRecords}}"
+      wx:key="id"
+      class="record-item"
+      bindlongpress="onLongPress"
+      data-record="{{item}}"
+    >
+      <view class="record-main">
+        <text class="record-time">{{item.startTime}} - {{item.endTime}}</text>
+      </view>
+      <view class="record-right">
+        <text class="record-hours">{{item.workHours}}h</text>
+        <text class="record-hint">长按操作</text>
+      </view>
+    </view>
+
+    <view class="empty" wx:if="{{dayRecords.length === 0}}">
+      <text>当天暂无记录</text>
+    </view>
+  </view>
+
+  <!-- 修改记录弹窗 -->
+  <view class="popup-mask" wx:if="{{editVisible}}" bindtap="onEditCancel">
+    <view class="popup-card" catchtap="noop">
+      <view class="popup-title">修改记录</view>
+
+      <view class="field">
+        <text class="field-label">日期</text>
+        <text class="field-value">{{date}}</text>
+      </view>
+
+      <picker mode="multiSelector" range="{{editTimePickerRange}}" value="{{editTimePickerValue}}" bindcolumnchange="onEditTimeColumnChange" bindchange="onEditTimeChange">
+        <view class="field">
+          <text class="field-label">工作时段</text>
+          <text class="field-value">{{editStartTime}} - {{editEndTime}} ›</text>
+        </view>
+      </picker>
+
+      <view class="field">
+        <text class="field-label">是否休息</text>
+        <switch checked="{{editHasRest}}" bindchange="onEditRestSwitchChange" color="#07c160" />
+      </view>
+
+      <picker wx:if="{{editHasRest}}" mode="multiSelector" range="{{editRestPickerRange}}" value="{{editRestPickerValue}}" bindcolumnchange="onEditRestColumnChange" bindchange="onEditRestChange">
+        <view class="field">
+          <text class="field-label">休息时间</text>
+          <text class="field-value">{{editRestText}} ›</text>
+        </view>
+      </picker>
+
+      <view class="calc-box">
+        <text class="calc-item">工作总时长：{{editWorkTotal}}h</text>
+        <text class="calc-item">休息：{{editLunchHours}}h</text>
+        <text class="calc-actual">★ 实际工时：{{editActualHours}}h</text>
+      </view>
+
+      <view class="popup-actions">
+        <button class="btn-cancel" bindtap="onEditCancel">取消</button>
+        <button class="btn-save" bindtap="onEditSubmit">保存</button>
+      </view>
+    </view>
+  </view>
+
+</view>

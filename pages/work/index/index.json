@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "工时记录",
+  "usingComponents": {
+    "work-calendar": "/components/work-calendar/work-calendar"
+  }
+}

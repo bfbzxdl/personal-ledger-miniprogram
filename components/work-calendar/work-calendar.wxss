@@ -1,0 +1,87 @@
+/* components/work-calendar/work-calendar.wxss */
+.cal {
+  background: #ffffff;
+  border-radius: 24rpx;
+  padding: 24rpx;
+}
+
+.cal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16rpx 24rpx;
+}
+
+.cal-arrow {
+  font-size: 48rpx;
+  color: #07c160;
+  padding: 0 24rpx;
+  font-weight: 700;
+}
+
+.cal-title {
+  font-size: 32rpx;
+  font-weight: 700;
+  color: #333333;
+}
+
+.cal-week {
+  display: flex;
+  padding: 12rpx 0;
+}
+
+.cal-week-item {
+  width: 14.28%;
+  text-align: center;
+  font-size: 24rpx;
+  color: #999999;
+}
+
+.cal-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cal-cell {
+  width: 14.28%;
+  height: 100rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border-radius: 12rpx;
+}
+
+.cal-cell.today {
+  background: rgba(7, 193, 96, 0.12);
+}
+
+.cal-cell.selected {
+  background: #07c160;
+}
+
+.cal-cell.selected .cal-day {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.cal-cell.selected .cal-hours {
+  color: #ffffff;
+}
+
+.cal-cell.other {
+  opacity: 0.35;
+}
+
+.cal-day {
+  font-size: 28rpx;
+  color: #333333;
+  line-height: 1.3;
+}
+
+.cal-hours {
+  font-size: 20rpx;
+  color: #07c160;
+  line-height: 1.3;
+}

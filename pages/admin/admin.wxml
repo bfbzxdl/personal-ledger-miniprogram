@@ -1,0 +1,27 @@
+<view class="page">
+
+  <view class="card">
+    <view class="admin-title">管理员身份</view>
+    <text class="admin-tip">所有操作由云函数校验管理员 OpenID</text>
+    <button class="admin-btn" bindtap="onWhoami" loading="{{loading}}">获取我的OpenID</button>
+    <button class="admin-btn" bindtap="onStats">数据统计</button>
+  </view>
+
+  <view class="card">
+    <view class="admin-title">查看数据（最多100条）</view>
+    <button class="admin-btn" bindtap="onListWork">查看工时数据</button>
+    <button class="admin-btn" bindtap="onListLedger">查看账簿数据</button>
+  </view>
+
+  <view class="card">
+    <view class="admin-title">危险操作</view>
+    <button class="admin-btn danger" bindtap="onClearWork">清空工时表</button>
+    <button class="admin-btn danger" bindtap="onClearLedger">清空账簿表</button>
+  </view>
+
+  <view class="card">
+    <view class="admin-title">结果</view>
+    <text class="result-text" user-select>{{resultText}}</text>
+  </view>
+
+</view>

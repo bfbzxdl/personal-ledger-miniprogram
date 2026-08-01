@@ -1,0 +1,177 @@
+/* pages/work/detail/detail.wxss */
+.page {
+  padding: 24rpx 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #07c160;
+}
+
+.header-date {
+  font-size: 34rpx;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.header-total {
+  font-size: 28rpx;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.list {
+  padding-bottom: 40rpx;
+}
+
+.record-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24rpx 8rpx;
+  border-bottom: 1rpx solid #f5f5f5;
+}
+
+.record-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.record-time {
+  font-size: 32rpx;
+  font-weight: 600;
+  color: #333333;
+}
+
+.record-lunch {
+  font-size: 24rpx;
+  color: #999999;
+  margin-top: 8rpx;
+}
+
+.record-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.record-hours {
+  font-size: 36rpx;
+  font-weight: 700;
+  color: #07c160;
+}
+
+.record-hint {
+  font-size: 20rpx;
+  color: #cccccc;
+  margin-top: 6rpx;
+}
+
+.empty {
+  padding: 60rpx 0;
+  text-align: center;
+  font-size: 28rpx;
+  color: #999999;
+}
+
+/* 修改记录弹窗 */
+.popup-mask {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.popup-card {
+  width: 640rpx;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-sizing: border-box;
+  background: #ffffff;
+  border-radius: 24rpx;
+  box-shadow: 0 8rpx 32rpx rgba(0, 0, 0, 0.15);
+  padding: 32rpx;
+}
+
+.popup-title {
+  font-size: 34rpx;
+  font-weight: 700;
+  color: #333333;
+  text-align: center;
+  margin-bottom: 8rpx;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 26rpx 8rpx;
+  border-bottom: 1rpx solid #f0f0f0;
+}
+
+.field-label {
+  font-size: 30rpx;
+  color: #333333;
+}
+
+.field-value {
+  font-size: 30rpx;
+  color: #07c160;
+}
+
+.calc-box {
+  margin-top: 24rpx;
+  padding: 20rpx;
+  background: #f7fbf8;
+  border-radius: 16rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.calc-item {
+  font-size: 26rpx;
+  color: #666666;
+  line-height: 1.8;
+}
+
+.calc-actual {
+  font-size: 32rpx;
+  font-weight: 700;
+  color: #07c160;
+  line-height: 1.8;
+}
+
+.popup-actions {
+  display: flex;
+  margin-top: 28rpx;
+}
+
+.popup-actions button {
+  flex: 1;
+  font-size: 30rpx;
+  font-weight: 600;
+  border-radius: 16rpx;
+  line-height: 2.4;
+}
+
+.popup-actions button::after {
+  border: none;
+}
+
+.btn-cancel {
+  margin-right: 20rpx;
+  background: #f5f5f5;
+  color: #666666;
+}
+
+.btn-save {
+  background: #07c160;
+  color: #ffffff;
+}

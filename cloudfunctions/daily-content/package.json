@@ -1,0 +1,9 @@
+{
+  "name": "daily-content",
+  "version": "1.0.0",
+  "description": "每日抓取壁纸与鼓励语",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "~2.6.3"
+  }
+}

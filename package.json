@@ -1,0 +1,17 @@
+{
+  "name": "personal-ledger-miniprogram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vant/weapp": "^1.11.6",
+    "dayjs": "^1.11.13",
+    "tdesign-miniprogram": "^1.8.0"
+  }
+}

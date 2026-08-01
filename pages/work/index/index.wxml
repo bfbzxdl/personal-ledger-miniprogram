@@ -1,0 +1,62 @@
+<!-- pages/work/index/index.wxml -->
+<view class="page">
+
+  <!-- 记录表单 -->
+  <view class="card">
+    <view class="now-text">{{nowText}}</view>
+
+    <view class="field">
+      <text class="field-label">日期</text>
+      <text class="field-value">{{date}}</text>
+    </view>
+
+    <picker mode="multiSelector" range="{{timePickerRange}}" value="{{timePickerValue}}" bindcolumnchange="onTimeColumnChange" bindchange="onTimeChange">
+      <view class="field">
+        <text class="field-label">工作时段</text>
+        <text class="field-value">{{startTime}} - {{endTime}} ›</text>
+      </view>
+    </picker>
+
+    <view class="field">
+      <text class="field-label">是否休息</text>
+      <switch checked="{{hasRest}}" bindchange="onRestSwitchChange" color="#07c160" />
+    </view>
+
+    <picker wx:if="{{hasRest}}" mode="multiSelector" range="{{restPickerRange}}" value="{{restPickerValue}}" bindcolumnchange="onRestColumnChange" bindchange="onRestChange">
+      <view class="field">
+        <text class="field-label">休息时间</text>
+        <text class="field-value">{{restText}} ›</text>
+      </view>
+    </picker>
+
+    <view class="calc-box">
+      <text class="calc-item">工作总时长：{{workTotal}}h</text>
+      <text class="calc-item">休息：{{lunchHours}}h</text>
+      <text class="calc-actual">★ 实际工时：{{actualHours}}h</text>
+    </view>
+
+    <button class="submit-btn" bindtap="onSubmit">确定</button>
+  </view>
+
+  <!-- 汇总 -->
+  <view class="card summary-card">
+    <text class="summary-item">本月总工时：{{monthTotal}}h</text>
+    <text class="summary-item" wx:if="{{showYearSummary}}">本年总工时：{{yearTotal}}h</text>
+  </view>
+
+  <!-- 日历（组件） -->
+  <view class="card calendar-card">
+    <work-calendar
+      year="{{viewYear}}"
+      month="{{viewMonth}}"
+      records="{{monthRecords}}"
+      selected-date="{{date}}"
+      bind:daytap="onDayTap"
+      bind:daylongpress="onDayLongPress"
+      bind:prevmonth="onPrevMonth"
+      bind:nextmonth="onNextMonth"
+      bind:yearlongpress="onYearLongPress"
+    />
+  </view>
+
+</view>

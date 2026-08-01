@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/work/index/index",
+    "pages/work/detail/detail",
+    "pages/ledger/index/index",
+    "pages/admin/admin"
+  ],
+  "tabBar": {
+    "custom": true,
+    "color": "#999999",
+    "selectedColor": "#07c160",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/work/index/index",
+        "text": "工时"
+      },
+      {
+        "pagePath": "pages/ledger/index/index",
+        "text": "账簿"
+      }
+    ]
+  },
+  "window": {
+    "navigationBarBackgroundColor": "#07c160",
+    "navigationBarTitleText": "个人台账",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#f5f5f5"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
