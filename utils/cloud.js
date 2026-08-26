@@ -11,9 +11,9 @@ function getDB() {
   return db
 }
 
-// 拉取查询的全部数据（小程序端单次最多100条，这里按页拉取，不再额外发 count）
+// 拉取查询的全部数据（小程序端单次最多返回20条，这里按页拉取，不再额外发 count）
 async function fetchAll(baseQuery) {
-  const batch = 100
+  const batch = 20
   let all = []
   let skip = 0
   while (true) {
