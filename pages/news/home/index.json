@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "热点",
+  "usingComponents": {
+    "news-card": "/components/news-card/index",
+    "trend-strip": "/components/trend-strip/index",
+    "state-view": "/components/state-view/index"
+  },
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark",
+  "onReachBottomDistance": 120
+}

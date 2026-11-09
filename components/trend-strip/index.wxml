@@ -1,0 +1,21 @@
+<!-- components/trend-strip/index.wxml - 热搜榜，无数据时由调用方整块隐藏 -->
+<view class="trend">
+  <view class="trend-head">
+    <text class="trend-title">热搜榜</text>
+    <text class="trend-sub">百度实时</text>
+  </view>
+
+  <view class="trend-list">
+    <view
+      class="trend-item"
+      wx:for="{{items}}"
+      wx:key="rank"
+      data-index="{{index}}"
+      bindtap="onTap"
+      hover-class="trend-item-hover"
+    >
+      <text class="trend-rank {{item.rank <= 3 ? 'trend-rank-top' : ''}}">{{item.rank}}</text>
+      <text class="trend-word">{{item.title}}</text>
+    </view>
+  </view>
+</view>

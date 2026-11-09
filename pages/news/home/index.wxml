@@ -1,0 +1,219 @@
+<!-- pages/news/home/index.wxml - 热点页：分段（今日/热榜/搜索）+ 分类 + 热搜 + 列表 -->
+<view class="news-page">
+
+  <!-- 分段 -->
+  <view class="segment-bar">
+    <view
+      class="segment {{segment === item.key ? 'segment-active' : ''}}"
+      wx:for="{{segments}}"
+      wx:key="key"
+      data-key="{{item.key}}"
+      bindtap="onSegmentTap"
+    >{{item.label}}</view>
+  </view>
+
+  <!-- ================= 今日 ================= -->
+  <block wx:if="{{segment === 'today'}}">
+
+    <!-- 日期条 → 归档 -->
+    <view class="day-bar" bindtap="onArchiveTap">
+      <text class="day-text">{{dayText}}</text>
+      <text class="day-more">往期 ›</text>
+    </view>
+
+    <!-- 热搜区：无数据时整块隐藏（R-09.2） -->
+    <trend-strip wx:if="{{trends.length > 0}}" items="{{trends}}" bind:trendtap="onTrendTap" />
+
+    <!-- 昨日数据兜底提示（R-18） -->
+    <view class="notice-bar" wx:if="{{noticeText}}">{{noticeText}}</view>
+
+    <!-- 分类 Tab -->
+    <scroll-view class="cat-bar" scroll-x show-scrollbar="{{false}}">
+      <view
+        class="cat {{category === item.key ? 'cat-active' : ''}}"
+        wx:for="{{categories}}"
+        wx:key="key"
+        data-key="{{item.key}}"
+        bindtap="onCategoryTap"
+      >{{item.label}}</view>
+    </scroll-view>
+
+    <!-- 杭州惠民标签筛选（R-14.2） -->
+    <scroll-view class="tag-bar" scroll-x wx:if="{{category === 'hangzhou'}}" show-scrollbar="{{false}}">
+      <view
+        class="tag-chip {{tag === item ? 'tag-chip-active' : ''}}"
+        wx:for="{{hzTags}}"
+        wx:key="*this"
+        data-tag="{{item}}"
+        bindtap="onTagTap"
+      >{{item}}</view>
+    </scroll-view>
+
+    <!-- 骨架屏 -->
+    <view class="skeleton" wx:if="{{skeleton}}">
+      <view class="sk-card" wx:for="{{[1,2,3,4,5]}}" wx:key="*this">
+        <view class="sk-line sk-title"></view>
+        <view class="sk-line sk-sub"></view>
+        <view class="sk-line sk-meta"></view>
+      </view>
+    </view>
+
+    <!-- 错误态 -->
+    <state-view wx:elif="{{error}}" text="{{error}}" action-text="点我重试" bind:action="onRetry" />
+
+    <!-- 空态 -->
+    <state-view
+      wx:elif="{{!items.length}}"
+      text="{{emptyText}}"
+      sub="{{updatedText}}"
+      action-text="重试"
+      plain-action-text="{{category || tag ? '看热点' : ''}}"
+      bind:action="onRetry"
+      bind:plainaction="onBackToHot"
+    />
+
+    <!-- 列表 -->
+    <block wx:else>
+      <view class="list-head">
+        <text class="list-total">{{total}} 条</text>
+        <text class="list-updated" wx:if="{{updatedText}}">{{updatedText}}</text>
+      </view>
+      <news-card
+        wx:for="{{items}}"
+        wx:key="id"
+        item="{{item}}"
+        bind:cardtap="onCardTap"
+      />
+      <view class="list-footer">
+        <text wx:if="{{loadingMore}}">加载中…</text>
+        <text wx:elif="{{hasMore}}">上拉加载更多</text>
+        <text wx:else>已经到底了</text>
+      </view>
+    </block>
+  </block>
+
+  <!-- ================= 热榜（T-09） ================= -->
+  <block wx:elif="{{segment === 'hot'}}">
+    <view class="hot-head">
+      <text class="hot-title">今日热榜</text>
+      <text class="hot-sub">按热度排序 · 每天 06:30 更新</text>
+    </view>
+
+    <view class="skeleton" wx:if="{{hotLoading}}">
+      <view class="sk-card" wx:for="{{[1,2,3,4,5]}}" wx:key="*this">
+        <view class="sk-line sk-title"></view>
+        <view class="sk-line sk-sub"></view>
+      </view>
+    </view>
+
+    <state-view wx:elif="{{hotError}}" text="{{hotError}}" action-text="点我重试" bind:action="onHotRetry" />
+
+    <state-view
+      wx:elif="{{!hotItems.length}}"
+      text="今日榜单还没生成"
+      sub="抓取完成后自动生成，明早 06:30 再见"
+      action-text="刷新看看"
+      bind:action="onHotRetry"
+    />
+
+    <block wx:else>
+      <news-card
+        wx:for="{{hotItems}}"
+        wx:key="id"
+        item="{{item}}"
+        rank="{{item.rank}}"
+        change-text="{{item.changeText}}"
+        change-type="{{item.changeType}}"
+        bind:cardtap="onCardTap"
+      />
+      <view class="list-footer">榜单来自当日全部事件的热度排序</view>
+    </block>
+  </block>
+
+  <!-- ================= 搜索（T-10） ================= -->
+  <block wx:else>
+    <view class="search-bar">
+      <input
+        class="search-input"
+        value="{{searchKeyword}}"
+        placeholder="搜标题或摘要，如：公积金"
+        placeholder-class="search-placeholder"
+        confirm-type="search"
+        bindinput="onSearchInput"
+        bindconfirm="onSearchSubmit"
+      />
+      <view class="search-btn" bindtap="onSearchSubmit">搜索</view>
+    </view>
+
+    <view class="range-bar">
+      <view
+        class="range-chip {{searchRange === item.key ? 'range-active' : ''}}"
+        wx:for="{{ranges}}"
+        wx:key="key"
+        data-key="{{item.key}}"
+        bindtap="onRangeTap"
+      >{{item.label}}</view>
+    </view>
+
+    <!-- 未发起搜索：历史记录 -->
+    <block wx:if="{{!searchSubmitted}}">
+      <view class="history" wx:if="{{searchHistory.length}}">
+        <view class="history-head">
+          <text class="history-title">最近搜索</text>
+          <text class="history-clear" bindtap="onClearHistory">清空</text>
+        </view>
+        <view class="history-list">
+          <view
+            class="history-chip"
+            wx:for="{{searchHistory}}"
+            wx:key="*this"
+            data-keyword="{{item}}"
+            bindtap="onHistoryTap"
+          >{{item}}</view>
+        </view>
+      </view>
+      <view class="state" wx:else>
+        <text class="state-text">输入关键词，搜索 90 天内的热点</text>
+        <text class="state-sub">支持杭州惠民标签词，如「公积金」「消费券」</text>
+      </view>
+    </block>
+
+    <!-- 加载中骨架 -->
+    <view class="skeleton" wx:elif="{{searchLoading && !searchItems.length}}">
+      <view class="sk-card" wx:for="{{[1,2,3]}}" wx:key="*this">
+        <view class="sk-line sk-title"></view>
+        <view class="sk-line sk-sub"></view>
+      </view>
+    </view>
+
+    <state-view wx:elif="{{searchError}}" text="{{searchError}}" action-text="点我重试" bind:action="onSearchRetry" />
+
+    <state-view
+      wx:elif="{{!searchItems.length}}"
+      text="暂无相关报道"
+      sub="试试换个关键词，或放宽时间范围"
+      action-text="复制关键词"
+      bind:action="onCopyKeyword"
+    />
+
+    <block wx:else>
+      <view class="list-head">
+        <text class="list-total">{{searchTotal}} 条结果</text>
+        <text class="list-updated">{{searchKeyword}}</text>
+      </view>
+      <news-card
+        wx:for="{{searchItems}}"
+        wx:key="id"
+        item="{{item}}"
+        bind:cardtap="onCardTap"
+      />
+      <view class="list-footer">
+        <text wx:if="{{searchLoading}}">加载中…</text>
+        <text wx:elif="{{searchHasMore}}">上拉加载更多</text>
+        <text wx:else>已经到底了</text>
+      </view>
+    </block>
+  </block>
+
+</view>
+

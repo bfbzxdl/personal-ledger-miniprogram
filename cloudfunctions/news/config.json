@@ -1,0 +1,14 @@
+{
+  "triggers": [
+    {
+      "name": "fetchDaily",
+      "type": "timer",
+      "config": "0 30 6 * * * *"
+    },
+    {
+      "name": "cleanupDaily",
+      "type": "timer",
+      "config": "0 40 6 * * * *"
+    }
+  ]
+}

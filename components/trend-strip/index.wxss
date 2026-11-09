@@ -1,0 +1,67 @@
+/* components/trend-strip/index.wxss - 热搜：两列，置顶 3 名高亮 */
+.trend {
+  background: #ffffff;
+  border-radius: 20rpx;
+  margin: 0 24rpx 20rpx 24rpx;
+  padding: 24rpx 24rpx 8rpx 24rpx;
+  box-shadow: 0 6rpx 16rpx rgba(0, 0, 0, 0.05);
+}
+
+.trend-head {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 12rpx;
+}
+
+.trend-title {
+  font-size: 30rpx;
+  font-weight: 700;
+  color: #222222;
+}
+
+.trend-sub {
+  margin-left: 12rpx;
+  font-size: 22rpx;
+  color: #bbbbbb;
+}
+
+.trend-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.trend-item {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  padding: 12rpx 8rpx 12rpx 0;
+  box-sizing: border-box;
+}
+
+.trend-item-hover {
+  opacity: 0.6;
+}
+
+.trend-rank {
+  flex: none;
+  width: 32rpx;
+  text-align: center;
+  font-size: 24rpx;
+  font-weight: 700;
+  color: #bbbbbb;
+  margin-right: 10rpx;
+}
+
+.trend-rank-top {
+  color: #fa5151;
+}
+
+.trend-word {
+  flex: 1;
+  min-width: 0;
+  font-size: 26rpx;
+  color: #444444;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

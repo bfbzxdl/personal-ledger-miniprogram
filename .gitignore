@@ -12,6 +12,7 @@ $RECYCLE.BIN/
 
 # Node.js
 node_modules/
+.npm-cache/
 
 # PRD
 PRD/

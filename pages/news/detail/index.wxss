@@ -1,0 +1,200 @@
+/* pages/news/detail/index.wxss - 详情页排版 */
+.detail-page {
+  padding-top: 16rpx;
+  padding-bottom: 40rpx;
+}
+
+.article {
+  background: #ffffff;
+  border-radius: 20rpx;
+  margin: 0 24rpx 20rpx 24rpx;
+  padding: 32rpx 28rpx;
+  box-shadow: 0 6rpx 16rpx rgba(0, 0, 0, 0.05);
+}
+
+.article-title {
+  font-size: 40rpx;
+  line-height: 1.4;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.article-meta {
+  margin-top: 20rpx;
+  display: flex;
+  align-items: center;
+  font-size: 24rpx;
+  color: #999999;
+}
+
+.meta-source {
+  max-width: 40%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.meta-dot {
+  margin: 0 10rpx;
+}
+
+.meta-time {
+  flex: none;
+}
+
+.meta-count {
+  margin-left: 16rpx;
+  color: #fa5151;
+}
+
+.article-tags {
+  margin-top: 16rpx;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.article-tag {
+  font-size: 22rpx;
+  color: #07c160;
+  background: rgba(7, 193, 96, 0.1);
+  border-radius: 6rpx;
+  padding: 4rpx 12rpx;
+  margin-right: 12rpx;
+  margin-bottom: 8rpx;
+}
+
+/* 政策元信息 */
+.policy-box {
+  margin-top: 24rpx;
+  padding: 20rpx 24rpx;
+  background: #f7f9f7;
+  border-left: 6rpx solid #07c160;
+  border-radius: 10rpx;
+}
+
+.policy-row {
+  display: flex;
+  font-size: 26rpx;
+  line-height: 1.8;
+}
+
+.policy-label {
+  flex: none;
+  width: 140rpx;
+  color: #999999;
+}
+
+.policy-value {
+  flex: 1;
+  color: #333333;
+}
+
+/* 正文 */
+.article-content {
+  margin-top: 28rpx;
+  font-size: 31rpx;
+  line-height: 1.75;
+  color: #333333;
+}
+
+.article-summary {
+  margin-top: 24rpx;
+  font-size: 30rpx;
+  line-height: 1.7;
+  color: #555555;
+}
+
+.article-empty {
+  margin-top: 28rpx;
+  padding: 32rpx 24rpx;
+  font-size: 27rpx;
+  line-height: 1.6;
+  color: #888888;
+  background: #fafafa;
+  border-radius: 12rpx;
+  text-align: center;
+}
+
+.article-truncated {
+  margin-top: 20rpx;
+  font-size: 24rpx;
+  color: #fa9d3b;
+}
+
+.article-actions {
+  margin-top: 36rpx;
+  display: flex;
+  justify-content: center;
+}
+
+.action-btn {
+  padding: 18rpx 56rpx;
+  font-size: 28rpx;
+  color: #07c160;
+  border: 1rpx solid #07c160;
+  border-radius: 999rpx;
+}
+
+/* 同事件报道 */
+.related-head {
+  margin: 12rpx 32rpx 16rpx 32rpx;
+  font-size: 28rpx;
+  font-weight: 600;
+  color: #444444;
+}
+
+/* 骨架屏 */
+.skeleton {
+  padding-top: 8rpx;
+}
+
+.sk-card {
+  background: #ffffff;
+  border-radius: 20rpx;
+  margin: 0 24rpx 20rpx 24rpx;
+  padding: 32rpx 28rpx;
+}
+
+.sk-line {
+  background: #f0f0f0;
+  border-radius: 8rpx;
+  height: 30rpx;
+  margin-bottom: 20rpx;
+}
+
+.sk-title {
+  height: 40rpx;
+  width: 92%;
+}
+
+.sk-sub {
+  width: 50%;
+  height: 24rpx;
+}
+
+.sk-body {
+  width: 100%;
+  height: 26rpx;
+}
+
+/* 错误态 */
+.state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120rpx 48rpx;
+}
+
+.state-text {
+  font-size: 30rpx;
+  color: #666666;
+}
+
+.state-btn {
+  margin-top: 32rpx;
+  padding: 16rpx 48rpx;
+  font-size: 26rpx;
+  color: #07c160;
+  border: 1rpx solid #07c160;
+  border-radius: 999rpx;
+}

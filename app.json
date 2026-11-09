@@ -4,6 +4,9 @@
     "pages/work/index/index",
     "pages/work/detail/detail",
     "pages/ledger/index/index",
+    "pages/news/home/index",
+    "pages/news/detail/index",
+    "pages/news/archive/index",
     "pages/admin/admin"
   ],
   "tabBar": {
@@ -23,6 +26,10 @@
       {
         "pagePath": "pages/ledger/index/index",
         "text": "账簿"
+      },
+      {
+        "pagePath": "pages/news/home/index",
+        "text": "热点"
       }
     ]
   },

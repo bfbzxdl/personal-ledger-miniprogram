@@ -1,0 +1,1426 @@
+{
+  "at": "2026-11-08T10:46:57.907Z",
+  "results": [
+    {
+      "id": "jiemian",
+      "name": "界面新闻",
+      "category": "finance",
+      "adapter": "rss",
+      "url": "https://a.jiemian.com/index.php?m=article&a=rss",
+      "status": "ok",
+      "http": 200,
+      "ms": 207,
+      "items": [
+        {
+          "title": "山西太原一高层建筑发生火灾，消防人员仍在扑救",
+          "link": "https://www.jiemian.com/article/15308211.html",
+          "date": "Sun, 08 Nov 2026 18:29:38 +0800",
+          "summary": ""
+        },
+        {
+          "title": "AI辅助设计禽流感疫苗动物实验获进展",
+          "link": "https://www.jiemian.com/article/15308207.html",
+          "date": "Sun, 08 Nov 2026 18:21:29 +0800",
+          "summary": "英国剑桥大学日前发布公报说，该校团队借助人工智能（AI）设计的一种新型广谱禽流感疫苗，在动物实验中对多种禽流感病毒变异株展现出防护效力。这款候选疫苗由剑桥大学与其衍生企业共同研发。研究人员收集全球监测项目记录的禽流感病毒基因序列数据，利用AI工具整合分析，设计出一系列包含这类病毒共同抗原特征的“超级抗原”。抗原是疫苗中能够触发机体免疫反应的成分。团队经细胞测试筛选后，将选定抗原用于疫苗并开展动物实验。（新华社）"
+        },
+        {
+          "title": "中央气象台发布寒潮蓝色预警",
+          "link": "https://www.jiemian.com/article/15308204.html",
+          "date": "Sun, 08 Nov 2026 18:18:15 +0800",
+          "summary": "中央气象台11月8日18时继续发布寒潮蓝色预警：受寒潮影响，预计，2026年11月8日20时至10日08时，西北地区东南部、黄淮大部、江淮、江汉、江南、西南地区南部、华南等地将降温6～10℃，其中，湖北东部、安徽中南部、江苏北部和西南部、浙江、江西、福建西部和北部、四川西南部、云南东部和北部、广东、广西东部等地的部分地区降温10～12℃，局地降温可达14℃以上；11月10日早晨，最低温度0℃线将南压至陕西南部到华北南部至黄淮东南部一带。"
+        },
+        {
+          "title": "首期中国—新加坡高级官员交流项目成功举办",
+          "link": "https://www.jiemian.com/article/15308179.html",
+          "date": "Sun, 08 Nov 2026 18:04:50 +0800",
+          "summary": "11月1日—7日，首期中国—新加坡高级官员交流项目在中国举办。中央组织部秘书长戴建营、商务部副部长兼中华人民共和国国际贸易谈判副代表凌激、新加坡驻华大使陈海泉出席启动环节并致辞，新加坡公共服务署人力发展司高级司长何颂廉作为交流项目代表发言。凌激指出，中新全方位高质量的前瞻性伙伴关系持续发展，双边贸易投资合作稳步推进，两国领导人提出打造数字经济、绿色发展等领域标志性成果。双方通过多层级合作机制共同落实，希望双方代表拓展新兴领域务实合作。陈海泉表示，新中关系不断向前发展。当前数字化、绿色转型机遇与挑战并存，希望新方代表把握机遇，拓展更多合作渠道。何颂廉表示，希望在分享新加坡自身实践同时，进一步了解中国创新成果与理念。"
+        },
+        {
+          "title": "中国移动云公司与北京智谱华章科技股份有限公司签署合作协议",
+          "link": "https://www.jiemian.com/article/15308174.html",
+          "date": "Sun, 08 Nov 2026 17:53:33 +0800",
+          "summary": ""
+        },
+        {
+          "title": "沙特能源部消息人士称阿美石油大楼受损，无人员伤亡",
+          "link": "https://www.jiemian.com/article/15308161.html",
+          "date": "Sun, 08 Nov 2026 17:46:19 +0800",
+          "summary": ""
+        },
+        {
+          "title": "Personal Agent，为什么都停在付款之前？",
+          "link": "https://www.jiemian.com/article/15307963.html",
+          "date": "Sun, 08 Nov 2026 17:37:31 +0800",
+          "summary": "个人AI越能干，越难赚钱。"
+        },
+        {
+          "title": "上财教授杨健：AI冲击下全球价值链将告别单极主导，迎来多极并存与分层竞争",
+          "link": "https://www.jiemian.com/article/15308127.html",
+          "date": "Sun, 08 Nov 2026 17:30:52 +0800",
+          "summary": ""
+        },
+        {
+          "title": "大连英博队获2026赛季中超联赛冠军",
+          "link": "https://www.jiemian.com/article/15308141.html",
+          "date": "Sun, 08 Nov 2026 17:28:47 +0800",
+          "summary": "11月8日，在辽宁大连举行的2026赛季中国足球超级联赛第30轮比赛中，大连英博队主场战胜天津津门虎队，夺得本赛季联赛冠军。"
+        },
+        {
+          "title": "百亿票房神话之后，博纳影业困在发薪日",
+          "link": "https://www.jiemian.com/article/15308064.html",
+          "date": "Sun, 08 Nov 2026 17:17:42 +0800",
+          "summary": "厚待劳力，勿负佣薪。"
+        },
+        {
+          "title": "今年前10个月国开行发放制造业贷款超4800亿元",
+          "link": "https://www.jiemian.com/article/15308124.html",
+          "date": "Sun, 08 Nov 2026 17:13:24 +0800",
+          "summary": "11月8日，据国家开发银行消息，今年以来，国开行综合运用多元化金融产品，为制造业企业提供覆盖技术研发、产能建设、日常经营的全周期投融资支持。1—10月，共发放制造业贷款超4800亿元，主要支持了传统产业改造升级、新兴产业培育壮大以及未来产业前瞻布局，有力助推了制造业高质量发展。"
+        },
+        {
+          "title": "卖卡牌的“95后”，要当37亿光伏上市公司老板了？",
+          "link": "https://www.jiemian.com/article/15308090.html",
+          "date": "Sun, 08 Nov 2026 17:11:19 +0800",
+          "summary": "泡泡玛特、红杉、阅文投过的卡牌公司，走到了A股门口。"
+        }
+      ]
+    },
+    {
+      "id": "cls",
+      "name": "财联社",
+      "category": "finance",
+      "adapter": "html",
+      "url": "https://www.cls.cn/",
+      "linkMatch": "/detail/",
+      "status": "ok",
+      "http": 200,
+      "ms": 90,
+      "items": [
+        {
+          "title": "美股盘前要闻一览：AI硬件股集体反弹；英伟达拟将老旧机房改造为小型AI数据中心；投资大佬警告英伟达的循环融资终迎泡沫破灭",
+          "link": "https://www.cls.cn/detail/2527806",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "周末要闻汇总：国常会就资本市场平稳健康发展作出部署",
+          "link": "https://www.cls.cn/detail/2528259",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "英伟达超7600万元货物离奇失踪",
+          "link": "https://www.cls.cn/detail/2528247",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "千公里仅3.43毫秒！我国新一代通信网技术取得新突破",
+          "link": "https://www.cls.cn/detail/2528242",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "机器人“大脑”再添新变量 规模上岗还差“最后几毫米”？",
+          "link": "https://www.cls.cn/detail/2528291",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "国产智能喂鸟器全球卖爆了",
+          "link": "https://www.cls.cn/detail/2528286",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "进博观察｜新一代通讯的下一站：6G、AI算力与后量子安全",
+          "link": "https://www.cls.cn/detail/2528217",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "国产全直驱数控机床龙头钶锐锶：11月10日上市",
+          "link": "https://www.cls.cn/detail/2528256",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "欧线跨境电商货量承压 大贸货与AI半导体托举空运传统旺季",
+          "link": "https://www.cls.cn/detail/2528227",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "环球下周看点： 美国CPI与地缘风险接踵而至 AI交易能否走出抛售阴霾？",
+          "link": "https://www.cls.cn/detail/2528161",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "是真是假？马斯克爆猛料：软银燃气轮机订单出现违约",
+          "link": "https://www.cls.cn/detail/2528187",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "英伟达落地物理AI为何先从汽车入手？",
+          "link": "https://www.cls.cn/detail/2528207",
+          "date": "",
+          "summary": ""
+        }
+      ]
+    },
+    {
+      "id": "ifeng",
+      "name": "凤凰财经",
+      "category": "finance",
+      "adapter": "html",
+      "url": "https://finance.ifeng.com/",
+      "linkMatch": "/c/",
+      "status": "ok",
+      "http": 200,
+      "ms": 107,
+      "items": [
+        {
+          "title": "野村：“蓝色浪潮”冲击美国数据中心，中国AI反而受益",
+          "link": "https://finance.ifeng.com/c/8xsyt7M2xfF",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "“11块钱买房”噱头叫停，背后的鹤岗正悄然转型",
+          "link": "https://finance.ifeng.com/c/8xt0VUwyyfg",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "英伟达，突发大劫案",
+          "link": "https://finance.ifeng.com/c/8xt0VUwyyne",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "AI交易何时企稳？未来如何演变？华尔街密集研判",
+          "link": "https://finance.ifeng.com/c/8xsybBLthho",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "高盛猛砍黄金目标价！全球央行，仍在“买买买”",
+          "link": "https://finance.ifeng.com/c/8xt1HmiIeGE",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "中选之后马斯克成为“AI格局胜负手”",
+          "link": "https://finance.ifeng.com/c/8xsyJBIXReE",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "大资金在行动，下周将有这些大事",
+          "link": "https://finance.ifeng.com/c/8xsxZrB7iaf",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "10月CPI、PPI数据将公布，这些投资机会最靠谱",
+          "link": "https://finance.ifeng.com/c/8xsa8KQoSZU",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "石油进口同比下降15%：中国是怎么做到的？",
+          "link": "https://finance.ifeng.com/c/8xsmbv5e3Ui",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "绿色产能遍地生长，世界仍在和1.5℃赛跑10-26 08:100评",
+          "link": "https://finance.ifeng.com/c/special/8xWwRd0PwGW",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "嘉实基金旗下多只产品获多机构五星评级10-27 19:040评",
+          "link": "https://finance.ifeng.com/c/8xZLGh8XcVf",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "凤凰鉴保官 | “好医保”评测04-29 22:060评",
+          "link": "https://biz.ifeng.com/c/special/8sj9KUhlrXs",
+          "date": "",
+          "summary": ""
+        }
+      ]
+    },
+    {
+      "id": "wallstreetcn",
+      "name": "华尔街见闻",
+      "category": "finance",
+      "adapter": "json",
+      "url": "https://api-one.wallstcn.com/apiv1/content/lives?channel=global-channel&limit=20",
+      "status": "ok",
+      "http": 200,
+      "ms": 172,
+      "items": [
+        {
+          "title": "AI辅助设计禽流感疫苗动物实验获进展",
+          "link": "https://wallstreetcn.com/livenews/3196473",
+          "date": "2026-11-08T10:25:23.000Z",
+          "summary": "英国剑桥大学日前发布公报说，该校团队借助人工智能（AI）设计的一种新型广谱禽流感疫苗，在动物实验中对多种禽流感病毒变异株展现出防护效力。这款候选疫苗由剑桥大学与其衍生企业共同研发。研究人员收集全球监测项目记录的禽流感病毒基因序列数据，利用A"
+        },
+        {
+          "title": "沙特能源部消息人士称阿美石油大楼受损，无人员伤亡",
+          "link": "https://wallstreetcn.com/livenews/3196472",
+          "date": "2026-11-08T09:57:56.000Z",
+          "summary": "当地时间8日获悉，沙特能源部一位官方消息人士称，沙特阿美石油公司位于利雅得的一栋行政大楼当日遭到“袭击企图”。当日的袭击导致建筑物被碎片击中，造成一定损坏，无人员伤亡。居住在利雅得金融中心的目击者称，沙特阿美石油公司大楼受损，被炸出明显缺口"
+        },
+        {
+          "title": "美媒称白宫办公厅副主任沃尔特斯将离职",
+          "link": "https://wallstreetcn.com/livenews/3196471",
+          "date": "2026-11-08T09:31:37.000Z",
+          "summary": "据美国阿克西奥斯新闻网站7日报道，白宫办公厅副主任理查德·沃尔特斯将离职。报道说，沃尔特斯已于6日递交辞呈。沃尔特斯是即将卸任的白宫办公厅主任苏茜·怀尔斯最亲近的政治助手之一。他的离职意味着即将接任白宫办公厅主任的斯蒂芬·米勒团队将接手更多"
+        },
+        {
+          "title": "华新建材：拟约16.42亿美元收购巴西CSN CIMENTOS 99.99%股权",
+          "link": "https://wallstreetcn.com/livenews/3196470",
+          "date": "2026-11-08T09:17:47.000Z",
+          "summary": "华新建材公告，公司拟以预估约90.337亿巴西雷亚尔（约16.42亿美元，并根据交割日财务报表净债务和营运资金进行调整）收购 COMPANHIA SIDERÚRGICANACIONAL（巴西国家钢铁公司，简称“CSN”）持有的 CSN CI"
+        },
+        {
+          "title": "今年前10个月国开行发放制造业贷款超4800亿元",
+          "link": "https://wallstreetcn.com/livenews/3196467",
+          "date": "2026-11-08T09:08:35.000Z",
+          "summary": "今天（8日）从国家开发银行了解到，今年以来，国开行综合运用多元化金融产品，为制造业企业提供覆盖技术研发、产能建设、日常经营的全周期投融资支持。1—10月，共发放制造业贷款超4800亿元，主要支持了传统产业改造升级、新兴产业培育壮大以及未来产"
+        },
+        {
+          "title": "我国新一代光刻机模型亮相",
+          "link": "https://wallstreetcn.com/livenews/3196465",
+          "date": "2026-11-08T08:16:21.000Z",
+          "summary": "11月5日至10日，第九届中国国际进口博览会在上海举行。会上，一系列重磅科技亮相。上海微电子装备集团携自主研发的新一代前道干式扫描投影光刻机SSC800、SSB800（模型）亮相中国馆，展示我国前道光刻装备自主化的阶段性成果。据悉，目前国产"
+        },
+        {
+          "title": "上交所：沪市上市公司总市值超65万亿元",
+          "link": "https://wallstreetcn.com/livenews/3196464",
+          "date": "2026-11-08T08:08:38.000Z",
+          "summary": "上交所发布的最新数据显示，截至目前，沪市合计上市公司超2300家，总市值超65万亿元。其中，A股市值超千亿的头部上市公司近百家，合计市值超34.8万亿元。沪市头部公司中，科技制造企业在人工智能、集成电路、先进制造等领域加快成长，成为资本市场"
+        },
+        {
+          "title": "上纬新材：消费级具身智能机器人“启元Q1”“启元T1” 下线1万台",
+          "link": "https://wallstreetcn.com/livenews/3196459",
+          "date": "2026-11-08T07:36:03.000Z",
+          "summary": "上纬新材公告，2026年9月20日公司正式对外发布消费级具身智能机器人产品“启元Q1”和“启元T1”。截至公告披露日，公司消费级具身智能机器人产能有序爬坡、良率表现良好，“启元Q1”和“启元T1”下线10000台。公司营业收入主要来自新材料"
+        },
+        {
+          "title": "沙特称拦截多枚导弹，利雅得市区传出多声巨响",
+          "link": "https://wallstreetcn.com/livenews/3196457",
+          "date": "2026-11-08T07:31:04.000Z",
+          "summary": "当地时间11月8日上午，沙特民防部门向首都利雅得发布潜在危险预警，随后利雅得市区传出多声巨响。民防部门此后宣布危险解除。当天，以沙特为首的多国联军发言人图尔基·马利基表示，防空部队拦截并摧毁了两枚由也门胡塞武装向利雅得发射的弹道导弹。随后，"
+        },
+        {
+          "title": "美发布月球基地建设与核动力月球车发射新规划",
+          "link": "https://wallstreetcn.com/livenews/3196456",
+          "date": "2026-11-08T07:20:48.000Z",
+          "summary": "美国航空航天局7日宣布，已选定8家公司参与新一轮“月球商业运载服务计划”，并推进一款核动力月球车的研制，以助力月球基地建设。美国航空航天局当天在佛罗里达州肯尼迪航天中心举行的航空航天展会上发布了为期10年的新一轮“月球商业运载服务计划”合同"
+        },
+        {
+          "title": "美中贸易全国委员会会长：美企不希望看到贸易保护主义抬头",
+          "link": "https://wallstreetcn.com/livenews/3196455",
+          "date": "2026-11-08T07:05:49.000Z",
+          "summary": "在今年的虹桥国际论坛上，美中贸易全国委员会会长谭森接受了总台记者的采访。他表示，美国企业不希望看到贸易保护主义抬头。 美中贸易全国委员会会长谭森：我们喜欢贸易摩擦吗？当然不。我们喜欢关税吗？肯定也不。我们每年都会调研美国企业，问他们中国在自"
+        },
+        {
+          "title": "沙特首都金融区遭袭，阿美石油公司大楼受损",
+          "link": "https://wallstreetcn.com/livenews/3196454",
+          "date": "2026-11-08T06:59:48.000Z",
+          "summary": "法新社8日援引目击者消息说，沙特阿拉伯首都利雅得金融区遭到袭击，沙特阿美石油公司大楼受损。（新华社）"
+        }
+      ]
+    },
+    {
+      "id": "gov",
+      "name": "中国政府网",
+      "category": "policy",
+      "adapter": "html",
+      "url": "https://www.gov.cn/zhengce/",
+      "linkMatch": "content_",
+      "issuer": "国务院",
+      "status": "ok",
+      "http": 200,
+      "ms": 104,
+      "items": [
+        {
+          "title": "中共中央发出通知 部署党的二十一大代表选举工作",
+          "link": "https://www.gov.cn/zhengce/202611/content_7085529.htm",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "国务院关于辽宁等9省区国家级自然保护区和国家级风景名胜区整合优化方案的批复",
+          "link": "https://www.gov.cn/zhengce/content/202611/content_7085109.htm",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "国务院办公厅关于2027年部分节假日安排的通知",
+          "link": "https://www.gov.cn/zhengce/content/202611/content_7085101.htm",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "国务院关于修改和废止部分行政法规的决定",
+          "link": "https://www.gov.cn/zhengce/content/202611/content_7085098.htm",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "中共中央关于持之以恒推进全面从严治党若干重大问题的决定",
+          "link": "https://www.gov.cn/zhengce/202611/content_7084690.htm",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "事业单位登记管理条例",
+          "link": "https://www.gov.cn/zhengce/content/202610/content_7084279.htm",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "国办关于适应人工智能技术发展助力构建就业友好型发展方式的意见",
+          "link": "https://www.gov.cn/zhengce/content/202610/content_7084107.htm",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "中办国办关于推动科技创新和产业创新深度融合的意见",
+          "link": "https://www.gov.cn/zhengce/202610/content_7083930.htm",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "统筹消费投资 畅通经济循环——从“十五五”专项规划看扩大内需着力点",
+          "link": "https://www.gov.cn/zhengce/202611/content_7084706.htm",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "农业农村部就《全国农产品品质提升“十五五”规划》答记者问",
+          "link": "https://www.gov.cn/zhengce/202610/content_7084405.htm",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "中央编办、司法部负责人就《事业单位登记管理条例》答记者问",
+          "link": "https://www.gov.cn/zhengce/202610/content_7084292.htm",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "把问题隐患化解在成灾之前——多部门详解“十五五”现代化应急体系建设",
+          "link": "https://www.gov.cn/zhengce/202610/content_7083970.htm",
+          "date": "",
+          "summary": ""
+        }
+      ]
+    },
+    {
+      "id": "pbc",
+      "name": "中国人民银行",
+      "category": "policy",
+      "adapter": "html",
+      "url": "http://www.pbc.gov.cn/",
+      "linkMatch": "/goutongjiaoliu/",
+      "issuer": "中国人民银行",
+      "status": "ok",
+      "http": 200,
+      "ms": 87,
+      "items": [
+        {
+          "title": "中国人民银行行长潘功胜会见摩根士丹利集团董事长彭泰德",
+          "link": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110516262373524/index.html",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "中国人民银行副行长邹澜出席第五届国际金融领袖投资峰会",
+          "link": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110516113533346/index.html",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "中国人民银行与印度尼西亚银行举行联合工作机制工作会议",
+          "link": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110515320167091/index.html",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "国务院关于金融工作情况的报告——2026年11月3日在十四届全国人民代表大会常务委员会第二十五次会议上",
+          "link": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110510330636555/index.html",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "中国人民银行加力实施股票回购增持再贷款政策",
+          "link": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110408502315269/index.html",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "中国人民银行行长潘功胜会见阿曼中央银行行长艾哈迈德·穆萨米",
+          "link": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110318093610834/index.html",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "证券、基金、保险公司互换便利（SFISF）操作结果公告 〔2026〕第1号",
+          "link": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110313380716818/index.html",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "中国人民银行决定上调金融机构外汇存款准备金率",
+          "link": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110308254969050/index.html",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "中国人民银行 金融监管总局 中国证监会召开支持资本市场两项工具座谈会",
+          "link": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026110219495213912/index.html",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "中国人民银行党委召开会议 传达学习党的二十届五中全会精神",
+          "link": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026103018411743702/index.html",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "中国人民银行行长潘功胜会...",
+          "link": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026102319181359636/index.html",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "中国人民银行行长潘功胜在...",
+          "link": "http://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2026101918374958873/index.html",
+          "date": "",
+          "summary": ""
+        }
+      ]
+    },
+    {
+      "id": "mof",
+      "name": "财政部",
+      "category": "policy",
+      "adapter": "html",
+      "url": "https://www.mof.gov.cn/zhengwuxinxi/zhengcefabu/",
+      "linkMatch": "/zhengcefabu/",
+      "issuer": "财政部",
+      "status": "ok",
+      "http": 200,
+      "ms": 79,
+      "items": [
+        {
+          "title": "《城乡义务教育补助经费管理办法》修订印发",
+          "link": "http://jkw.mof.gov.cn/zhengcefabu/202610/t20261014_4002838.htm",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "财政部 中国人民银行 金融监管总局关于实施居民购房贷款贴息政策的通知",
+          "link": "http://jrs.mof.gov.cn/zhengcefabu/phjr/202609/t20260929_3998312.htm",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "《关于加快农业保险高质量发展的实施方案》印发",
+          "link": "http://jrs.mof.gov.cn/zhengcefabu/phjr/202609/t20260911_3997257.htm",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "《改善普通高中学校办学条件补助资金管理办法》修订印发",
+          "link": "http://jkw.mof.gov.cn/zhengcefabu/202609/t20260901_3996425.htm",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "非应税交易等增值税有关事项明确",
+          "link": "http://szs.mof.gov.cn/zhengcefabu/202608/t20260828_3996295.htm",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "《会计师事务所职业责任保险实施办法》修订印发",
+          "link": "http://kjs.mof.gov.cn/zhengcefabu/202608/t20260827_3996207.htm",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "财政部等三部门联合发文部署进一步做好财政金融协同促内需政策有关工作",
+          "link": "http://jrs.mof.gov.cn/zhengcefabu/phjr/202608/t20260820_3995853.htm",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "《企业会计准则第30号——财务报表列报》修订印发",
+          "link": "http://kjs.mof.gov.cn/zhengcefabu/202608/t20260805_3994927.htm",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "四部门出台健全金融机构治理实施意见",
+          "link": "http://jrs.mof.gov.cn/zhengcefabu/gszl/202607/t20260731_3994642.htm",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "财政部 税务总局关于调整部分能源资源行业企业城镇土地使用税政策的公告",
+          "link": "http://szs.mof.gov.cn/zhengcefabu/202607/t20260728_3994425.htm",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "财政部 税务总局关于离岸信托 个人所得税有关事项的公告",
+          "link": "http://szs.mof.gov.cn/zhengcefabu/202607/t20260724_3994261.htm",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "财政部等三部门印发《征收挥发性有机物环境保护税试点实施办法》",
+          "link": "http://szs.mof.gov.cn/zhengcefabu/202607/t20260724_3994251.htm",
+          "date": "",
+          "summary": ""
+        }
+      ]
+    },
+    {
+      "id": "csrc",
+      "name": "中国证监会",
+      "category": "policy",
+      "adapter": "html",
+      "url": "http://www.csrc.gov.cn/",
+      "linkMatch": "/csrc/c",
+      "issuer": "中国证监会",
+      "status": "ok",
+      "http": 200,
+      "ms": 228,
+      "items": [
+        {
+          "title": "吴清主席会见香港特区政府财政司司长陈茂波一行",
+          "link": "http://www.csrc.gov.cn/csrc/c106311/c7666429/content.shtml",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "中国证监会同意氢氧化锂期货和期权注册",
+          "link": "http://www.csrc.gov.cn/csrc/c100028/c7669233/content.shtml",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "中国证监会同意葵花籽油期货和期权注册",
+          "link": "http://www.csrc.gov.cn/csrc/c100028/c7669216/content.shtml",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "中国证监会与阿曼金融服务管理局签署《证券期货监管合作谅解备忘录》",
+          "link": "http://www.csrc.gov.cn/csrc/c100028/c7668983/content.shtml",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "中国证监会有关部门负责人就近期稳市场稳预期相关工作答记者问",
+          "link": "http://www.csrc.gov.cn/csrc/c100028/c7668092/content.shtml",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "中国证监会党委传达贯彻党的二十届五中全会精神",
+          "link": "http://www.csrc.gov.cn/csrc/c100028/c7667579/content.shtml",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "2024年4月12日新闻发布会",
+          "link": "http://www.csrc.gov.cn/csrc/c100029/c7473708/content.shtml",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "2024年2月23日新闻发布会",
+          "link": "http://www.csrc.gov.cn/csrc/c100029/c7464344/content.shtml",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "2024 年1月19日新闻发布会",
+          "link": "http://www.csrc.gov.cn/csrc/c100029/c7458464/content.shtml",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "2024年1月12日新闻发布会",
+          "link": "http://www.csrc.gov.cn/csrc/c100029/c7457231/content.shtml",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "2021年9月24日新闻发布会",
+          "link": "http://www.csrc.gov.cn/csrc/c100029/c1494133/content.shtml",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "2021年9月3日新闻发布会",
+          "link": "http://www.csrc.gov.cn/csrc/c100029/cb7acea9e3b6c4c94bef46eb0ff3e5525/content.shtml",
+          "date": "",
+          "summary": ""
+        }
+      ]
+    },
+    {
+      "id": "xinhua_world",
+      "name": "新华网国际",
+      "category": "world",
+      "adapter": "html",
+      "url": "http://www.news.cn/world/",
+      "linkMatch": "/world/",
+      "status": "ok",
+      "http": 200,
+      "ms": 78,
+      "items": [
+        {
+          "title": "观天下｜中期选举失利 美国共和党内争相“甩锅”",
+          "link": "https://www.news.cn/world/20261106/731cf4d72851435e9d29df0cb4aa70ec/c.html",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "国际观察丨“蓝潮”后的特朗普困局",
+          "link": "https://www.news.cn/world/20261104/8a09804b8c654f7582c4d0ed8ff50d52/c.html",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "国际观察丨三方会谈重启：美方欲造势 俄乌各有盘算",
+          "link": "https://www.news.cn/world/20261103/fd5543797a6243a0bd72314e04922751/c.html",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "重掌美国国会，民主党的“雄心”与现实",
+          "link": "https://www.news.cn/world/20261105/871fcf37c58248659401e85ca0417d03/c.html",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "新加坡拟强化立法治理跨境烟霾",
+          "link": "https://www.news.cn/world/20261104/94d769dbe3174407aa05034fb3710fc8/c.html",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "美国举行中期选举投票 特朗普政府迎来“期中考试”",
+          "link": "https://www.news.cn/world/20261103/5d3ab3bb267249bd8b4bf9fb803b23e5/c.html",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "外媒在北京看到怎样的“新质生产力”",
+          "link": "https://www.news.cn/world/20261107/aa2104388eb44ed3a1be6916e36a3743/c.html",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "世界媒体看北京：古殿承载文脉 智造点亮未来",
+          "link": "https://www.news.cn/world/20261107/60b8c564f3fe463c86828a9b911ca462/c.html",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "他们的“进博第一天”",
+          "link": "https://www.news.cn/world/20261106/1c0380c8471d4c4fa0d6142a06783f86/c.html",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "第九届进博会丨环球好物荟萃进博 共享中国大市场",
+          "link": "https://www.news.cn/world/20261106/9c823b149f6947a0b5d1a4968b79dd54/c.html",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "中国科学家叶玉如获教科文组织国际生命科学研究奖",
+          "link": "https://www.news.cn/world/20261107/ab0d415b728548da9944166c245d3ecd/c.html",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "现场画面丨旅美大熊猫“平平”“福双”首次公开亮相",
+          "link": "https://www.news.cn/world/20261107/ad5c64ef9ffb4741a6e10265337b0b9e/c.html",
+          "date": "",
+          "summary": ""
+        }
+      ]
+    },
+    {
+      "id": "thepaper_world",
+      "name": "澎湃国际",
+      "category": "world",
+      "adapter": "html",
+      "url": "https://www.thepaper.cn/channel_25951",
+      "linkMatch": "newsDetail_forward",
+      "status": "ok",
+      "http": 200,
+      "ms": 342,
+      "items": [
+        {
+          "title": "进博观察｜涂料增量“换挡”，跨国涂料巨头在华加码工业“防护衣”",
+          "link": "https://www.thepaper.cn/newsDetail_forward_34432618",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "伯克希尔三季度净利降28%，加速回购、净卖出股票、现金储备再升",
+          "link": "https://www.thepaper.cn/newsDetail_forward_34429766",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "进博观察｜“卷”展品更要建生态，医药健康企业进博“秀”出新逻辑",
+          "link": "https://www.thepaper.cn/newsDetail_forward_34425260",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "中国机会｜欧莱雅：在中国开展的许多实践正为全球其他市场带来启发",
+          "link": "https://www.thepaper.cn/newsDetail_forward_34429861",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "中国机会 | 默克加码中国：从市场布局到创新策源，深度融入中国半导体生态",
+          "link": "https://www.thepaper.cn/newsDetail_forward_34428278",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "中国机会｜米其林：中国出行市场更像“健身房”，创新和验证的经验反哺全球",
+          "link": "https://www.thepaper.cn/newsDetail_forward_34429006",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "从经典传承到本土创新，匡威中国如何让百年品牌走进当下？",
+          "link": "https://www.thepaper.cn/newsDetail_forward_34431866",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "中国机会｜视佳卫：进博会提供“破圈”机会，持续加码在华投入",
+          "link": "https://www.thepaper.cn/newsDetail_forward_34426141",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "平安人寿推出御享禧越系列分红险产品，提供养老、财富管理与传承一站式解决方案",
+          "link": "https://www.thepaper.cn/newsDetail_forward_34427979",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "中国机会丨COACH中国区总裁：中国市场连续6个季度双位数增长，开店计划稳步推进",
+          "link": "https://www.thepaper.cn/newsDetail_forward_34423206",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "进博观察｜AI硬件重塑航空货运需求，物流巨头加码航线与枢纽投资布局",
+          "link": "https://www.thepaper.cn/newsDetail_forward_34427400",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "中企海外矿山管理新范本：超大型铁矿西芒杜项目首份ESG报告出炉",
+          "link": "https://www.thepaper.cn/newsDetail_forward_34429218",
+          "date": "",
+          "summary": ""
+        }
+      ]
+    },
+    {
+      "id": "bbc",
+      "name": "中新网国际",
+      "category": "world",
+      "adapter": "rss",
+      "url": "https://www.chinanews.com.cn/rss/world.xml",
+      "status": "ok",
+      "http": 200,
+      "ms": 37,
+      "items": [
+        {
+          "title": "日本大阪发生持刀伤人事件致1人受伤 嫌犯被捕",
+          "link": "https://www.chinanews.com.cn/gj/2026/11-08/10728417.shtml",
+          "date": "Sun, 8 Nov 2026 17:10:35 +0800",
+          "summary": "中新网11月8日电 据日本共同社报道，当地时间8日，日本大阪府发生一起持刀伤人事件，造成1人受伤。警方以涉嫌伤害罪，当场逮捕一名男性嫌疑人。"
+        },
+        {
+          "title": "日本舆论称政府新版防卫战略引发国内外担忧",
+          "link": "https://www.chinanews.com.cn/gj/2026/11-08/10728413.shtml",
+          "date": "Sun, 8 Nov 2026 17:07:31 +0800",
+          "summary": "日本媒体7日援引相关人士消息称，日本政府正考虑在拟于年底修订的《国家防卫战略》中，明确写入强化“持续作战能力”的内容。相关动向在日本政府内外引发担忧。"
+        },
+        {
+          "title": "日本民众呼吁日社会正视侵略历史 加强教育",
+          "link": "https://www.chinanews.com.cn/gj/2026/11-08/10728409.shtml",
+          "date": "Sun, 8 Nov 2026 17:00:19 +0800",
+          "summary": "当地时间7日，日本民众在东京新宿举行有关“东京审判”学习演讲会。活动中，演讲者将纽伦堡审判遗址与东京审判遗址进行比较，指出同样作为向民众开放的重要历史遗址，日本方面对于过去加害历史的陈述明显存在不足。民众呼吁，日本社会应当加强相关历史教育，正视侵略历史。"
+        },
+        {
+          "title": "特朗普下令美国司法部调查民主党人“威胁弹劾”行为",
+          "link": "https://www.chinanews.com.cn/gj/2026/11-08/10728408.shtml",
+          "date": "Sun, 8 Nov 2026 16:56:56 +0800",
+          "summary": "中新网11月8日电 据美国《国会山报》报道，当地时间7日，美国总统特朗普对一些民主党人呼吁弹劾共和党人表示担忧，称这些威胁是“敲诈勒索”，并要求司法部“调查此事”。"
+        },
+        {
+          "title": "上芭舞剧《梁山伯与祝英台》亮相美国弗吉尼亚州",
+          "link": "https://www.chinanews.com.cn/gj/2026/11-08/10728311.shtml",
+          "date": "Sun, 8 Nov 2026 13:36:36 +0800",
+          "summary": "中新社华盛顿11月7日电 (记者 沙晗汀)上海芭蕾舞团原创芭蕾舞剧《梁山伯与祝英台》当地时间7日晚在美国弗吉尼亚州乔治·梅森大学艺术中心上演，现场观众反响热烈。"
+        },
+        {
+          "title": "以色列总统决定授权正直党领导人埃森科特组建新政府",
+          "link": "https://www.chinanews.com.cn/gj/2026/11-08/10728308.shtml",
+          "date": "Sun, 8 Nov 2026 13:32:27 +0800",
+          "summary": "中新社北京11月8日电 综合消息：以色列总统赫尔佐格当地时间7日宣布，将组建下一届政府的授权交给正直党领导人、前国防军总参谋长加迪·埃森科特，正式授权仪式定于8日下午举行。"
+        },
+        {
+          "title": "哥伦比亚一军事基地遇袭 致3死8伤",
+          "link": "https://www.chinanews.com.cn/gj/2026/11-08/10728275.shtml",
+          "date": "Sun, 8 Nov 2026 11:10:24 +0800",
+          "summary": "中新社北京11月8日电 波哥大消息：据哥伦比亚军方通报，该国北部玻利瓦尔省一处军事基地当地时间7日遭携带爆炸装置的无人机袭击，造成3名军人死亡、8名军人重伤，另有多人受不同程度伤害。"
+        },
+        {
+          "title": "波兰克拉科夫枪击事件已致6死 枪手家中另发现3具遗体",
+          "link": "https://www.chinanews.com.cn/gj/2026/11-08/10728276.shtml",
+          "date": "Sun, 8 Nov 2026 11:01:23 +0800",
+          "summary": "中新社北京11月8日电 华沙消息：波兰克拉科夫当地时间7日发生一起枪击事件，已造成6人死亡、16人受伤，伤者包括2名警察。枪手被警方打伤后被捕，其家中另外发现3具遗体。"
+        },
+        {
+          "title": "日本静冈县地震已致20余人受伤",
+          "link": "https://www.chinanews.com.cn/gj/2026/11-08/10728274.shtml",
+          "date": "Sun, 8 Nov 2026 10:59:33 +0800",
+          "summary": "据日本方面8日消息，当天凌晨发生在静冈县西部的5.7级地震已造成20余人受伤，部分铁路交通受到影响。"
+        },
+        {
+          "title": "日本有识之士：热播日剧颠倒黑白别有用心 缺乏正确史观",
+          "link": "https://www.chinanews.com.cn/gj/2026/11-08/10728272.shtml",
+          "date": "Sun, 8 Nov 2026 10:55:03 +0800",
+          "summary": "近期，日本TBS电视台播出的电视剧《别班》第二季因刻意制造对立、煽动敌意引发争议。剧中将中国情报人员描绘成残暴的施暴者，甚至将侵华日军曾使用的酷刑嫁接到现代中国人身上，颠倒历史上的加害者与受害者形象。日本有识之士质疑该剧主创人员的立场，批评这种以娱乐之名丑化中国、美化日本情报人员的叙事缺乏正确史观。"
+        },
+        {
+          "title": "日媒：日本新版防卫战略或强化“持续作战能力”",
+          "link": "https://www.chinanews.com.cn/gj/2026/11-08/10728269.shtml",
+          "date": "Sun, 8 Nov 2026 10:49:19 +0800",
+          "summary": "新华社东京11月7日电(记者李子越#8195;陈泽安)日本共同社7日援引相关人士消息称，日本政府正考虑在拟于年底修订的《国家防卫战略》中，明确写入强化“持续作战能力”的内容。相关动向在日本政府内外引发担忧。"
+        },
+        {
+          "title": "特朗普称邀请达纳·怀特担任白宫新闻秘书",
+          "link": "https://www.chinanews.com.cn/gj/2026/11-08/10728261.shtml",
+          "date": "Sun, 8 Nov 2026 10:15:39 +0800",
+          "summary": "中新网11月8日电 综合美媒报道，美国总统特朗普当地时间7日在其社交平台“真实社交”(Truth Social)上发文说，他已邀请美国终极格斗冠军赛总裁达纳·怀特担任白宫新闻秘书一职。"
+        }
+      ]
+    },
+    {
+      "id": "baidu",
+      "name": "百度热搜",
+      "category": "general",
+      "adapter": "trend",
+      "url": "https://top.baidu.com/board?tab=realtime",
+      "status": "ok",
+      "http": 200,
+      "ms": 225,
+      "items": [
+        {
+          "title": "“信赖” 二字 重千钧",
+          "link": "https://www.baidu.com/s?wd=%E2%80%9C%E4%BF%A1%E8%B5%96%E2%80%9D+%E4%BA%8C%E5%AD%97+%E9%87%8D%E5%8D%83%E9%92%A7&sa=fyb_news&rsv_dl=fyb_news",
+          "date": "",
+          "summary": "百度热搜第 1 位"
+        },
+        {
+          "title": "查看更多>",
+          "link": "https://www.baidu.com/s?wd=%E2%80%9C%E4%BF%A1%E8%B5%96%E2%80%9D+%E4%BA%8C%E5%AD%97+%E9%87%8D%E5%8D%83%E9%92%A7&sa=fyb_news&rsv_dl=fyb_news",
+          "date": "",
+          "summary": "百度热搜第 2 位"
+        },
+        {
+          "title": "大连英博夺得中超冠军",
+          "link": "https://www.baidu.com/s?wd=%E5%A4%A7%E8%BF%9E%E8%8B%B1%E5%8D%9A%E5%A4%BA%E5%BE%97%E4%B8%AD%E8%B6%85%E5%86%A0%E5%86%9B&sa=fyb_news&rsv_dl=fyb_news",
+          "date": "",
+          "summary": "百度热搜第 3 位"
+        },
+        {
+          "title": "成都蓉城错失第七个冠军点",
+          "link": "https://www.baidu.com/s?wd=%E6%88%90%E9%83%BD%E8%93%89%E5%9F%8E%E9%94%99%E5%A4%B1%E7%AC%AC%E4%B8%83%E4%B8%AA%E5%86%A0%E5%86%9B%E7%82%B9&sa=fyb_news&rsv_dl=fyb_news",
+          "date": "",
+          "summary": "百度热搜第 4 位"
+        },
+        {
+          "title": "新老朋友集中亮相进博会",
+          "link": "https://www.baidu.com/s?wd=%E6%96%B0%E8%80%81%E6%9C%8B%E5%8F%8B%E9%9B%86%E4%B8%AD%E4%BA%AE%E7%9B%B8%E8%BF%9B%E5%8D%9A%E4%BC%9A&sa=fyb_news&rsv_dl=fyb_news",
+          "date": "",
+          "summary": "百度热搜第 5 位"
+        },
+        {
+          "title": "“这是我来成都之后最伤心的一天”",
+          "link": "https://www.baidu.com/s?wd=%E2%80%9C%E8%BF%99%E6%98%AF%E6%88%91%E6%9D%A5%E6%88%90%E9%83%BD%E4%B9%8B%E5%90%8E%E6%9C%80%E4%BC%A4%E5%BF%83%E7%9A%84%E4%B8%80%E5%A4%A9%E2%80%9D&sa=fyb_news&rsv_dl=fyb_news",
+          "date": "",
+          "summary": "百度热搜第 6 位"
+        },
+        {
+          "title": "胖东来回应“洗发水产地造假”",
+          "link": "https://www.baidu.com/s?wd=%E8%83%96%E4%B8%9C%E6%9D%A5%E5%9B%9E%E5%BA%94%E2%80%9C%E6%B4%97%E5%8F%91%E6%B0%B4%E4%BA%A7%E5%9C%B0%E9%80%A0%E5%81%87%E2%80%9D&sa=fyb_news&rsv_dl=fyb_news",
+          "date": "",
+          "summary": "百度热搜第 7 位"
+        },
+        {
+          "title": "湖北下雪了",
+          "link": "https://www.baidu.com/s?wd=%E6%B9%96%E5%8C%97%E4%B8%8B%E9%9B%AA%E4%BA%86&sa=fyb_news&rsv_dl=fyb_news",
+          "date": "",
+          "summary": "百度热搜第 8 位"
+        },
+        {
+          "title": "多地延迟到校取消早读 家长发声",
+          "link": "https://www.baidu.com/s?wd=%E5%A4%9A%E5%9C%B0%E5%BB%B6%E8%BF%9F%E5%88%B0%E6%A0%A1%E5%8F%96%E6%B6%88%E6%97%A9%E8%AF%BB+%E5%AE%B6%E9%95%BF%E5%8F%91%E5%A3%B0&sa=fyb_news&rsv_dl=fyb_news",
+          "date": "",
+          "summary": "百度热搜第 9 位"
+        },
+        {
+          "title": "大麦哥涨粉超700万 一条视频报价12万",
+          "link": "https://www.baidu.com/s?wd=%E5%A4%A7%E9%BA%A6%E5%93%A5%E6%B6%A8%E7%B2%89%E8%B6%85700%E4%B8%87+%E4%B8%80%E6%9D%A1%E8%A7%86%E9%A2%91%E6%8A%A5%E4%BB%B712%E4%B8%87&sa=fyb_news&rsv_dl=fyb_news",
+          "date": "",
+          "summary": "百度热搜第 10 位"
+        },
+        {
+          "title": "34岁周冬雨以主评审身份现身",
+          "link": "https://www.baidu.com/s?wd=34%E5%B2%81%E5%91%A8%E5%86%AC%E9%9B%A8%E4%BB%A5%E4%B8%BB%E8%AF%84%E5%AE%A1%E8%BA%AB%E4%BB%BD%E7%8E%B0%E8%BA%AB&sa=fyb_news&rsv_dl=fyb_news",
+          "date": "",
+          "summary": "百度热搜第 11 位"
+        },
+        {
+          "title": "大连18分大逆转载入史册",
+          "link": "https://www.baidu.com/s?wd=%E5%A4%A7%E8%BF%9E18%E5%88%86%E5%A4%A7%E9%80%86%E8%BD%AC%E8%BD%BD%E5%85%A5%E5%8F%B2%E5%86%8C&sa=fyb_news&rsv_dl=fyb_news",
+          "date": "",
+          "summary": "百度热搜第 12 位"
+        }
+      ]
+    },
+    {
+      "id": "chinanews",
+      "name": "中国新闻网",
+      "category": "general",
+      "adapter": "rss",
+      "url": "https://www.chinanews.com.cn/rss/scroll-news.xml",
+      "status": "ok",
+      "http": 200,
+      "ms": 18,
+      "items": [
+        {
+          "title": "山西太原一高层建筑发生火灾 消防人员仍在扑救",
+          "link": "https://www.chinanews.com.cn/sh/2026/11-08/10728461.shtml",
+          "date": "Sun, 8 Nov 2026 18:36:56 +0800",
+          "summary": "新华社太原11月8日电(记者马晓媛、王皓)记者从太原市委宣传部获悉，11月8日17时许，位于太原市迎泽区柳巷南路一栋高层建筑发生火灾。截至18时，消防救援人员仍在现场扑救。"
+        },
+        {
+          "title": "韩正访问格鲁吉亚",
+          "link": "https://www.chinanews.com.cn/gn/2026/11-08/10728428.shtml",
+          "date": "Sun, 8 Nov 2026 18:34:16 +0800",
+          "summary": "中新社北京11月8日电 当地时间11月6日至8日，应格鲁吉亚政府邀请，中国国家副主席韩正访问格鲁吉亚，在第比利斯分别会见格鲁吉亚总统卡韦拉什维利、总理科巴希泽。"
+        },
+        {
+          "title": "海峡两岸机械产业博览会在福建龙岩开幕",
+          "link": "https://www.chinanews.com.cn/tp/2026/11-08/10728456.shtml",
+          "date": "Sun, 8 Nov 2026 18:27:27 +0800",
+          "summary": "图为室外展区龙岩产的纯电矿用自卸车吸引参观者。相比传统燃油矿卡，既能有效降低矿区碳排放，又能显著缩减企业运营成本。中新社记者 张斌 摄 图为参观者在台资企业精品馆参观。中新社记者 张斌 摄 图为客商在室外展区参观展示的机械。中新社记者 张斌 摄 图为参观者在展馆内参观“龙岩智造”。中新社记者 张斌 摄 图为民众在展馆低空经济展区参观载重无人机。中新社记者 张斌 摄 图为参展企业展示的工业机器人生产设备。中新社记者 张斌 摄"
+        },
+        {
+          "title": "2026中国杯世界花样滑冰大奖赛：男子单人滑·自由滑项目展开角逐",
+          "link": "https://www.chinanews.com.cn/tp/2026/11-08/10728445.shtml",
+          "date": "Sun, 8 Nov 2026 18:25:27 +0800",
+          "summary": "11月8日，在广东深圳举行的2026中国杯世界花样滑冰大奖赛进入第三个比赛日。日本选手三浦佳生夺得男子单人滑项目冠军。图为三浦佳生在男子单人滑·自由滑项目比赛中。中新社记者 陈骥旻 摄 11月8日，在广东深圳举行的2026中国杯世界花样滑冰大奖赛进入第三个比赛日。日本选手三浦佳生夺得男子单人滑项目冠军。图为三浦佳生在男子单人滑·自由滑项目比赛中。中新社记者 陈骥旻 摄 11月8日，在广东深圳举行的2026中国杯世界花样滑冰大奖赛进入第三个比赛日。日本选手三浦佳生夺得男子单人滑项目冠军。图为三浦佳生在男子单人滑·自由滑项目比赛中。中新社记者 陈骥旻 摄 11月8日，在广东深圳举行的2026中国杯世界花样滑冰大奖赛进入第三个比赛日。中立运动员弗拉季斯拉夫·迪基吉夺得男子单人滑项目亚军。图为弗拉季斯拉夫·迪基吉在男子单人滑·自由滑项目比赛中。中新社记者 陈骥旻 摄 11月8日，在广东深圳举行的2026中国杯世界花样滑冰大奖赛进入第三个比赛日。中立运动员弗拉季斯拉夫·迪基吉夺得男子单人滑项目亚军。图为弗拉季斯拉夫·迪基吉在男子单人滑·自由滑项目比赛中。中新社记者 陈骥旻 摄 11月8日，在广东深圳举行的2026中国杯世界花样滑冰大奖赛进入第三个比赛日。中立运动员弗拉季斯拉夫·迪基吉夺得男子单人滑项目亚军。图为弗拉季斯拉夫·迪基吉在男子单人滑·自由滑项目比赛中。中新社记者 陈骥旻 摄 11月8日，在广东深圳举行的2026中国杯世界花样滑冰大奖赛进入第三个比赛日。中立运动员叶夫根尼·谢梅年科夺得男子单人滑项目季军。图为叶夫根尼·谢梅年科在男子单人滑·自由滑项目比赛中。中新社记者 陈骥旻 摄 11月8日，在广东深圳举行的2026中国杯世界花样滑冰大奖赛进入第三个比赛日。中立运动员叶夫根尼·谢梅年科夺得男子单人滑项目季军。图为叶夫根尼·谢梅年科在男子单人滑·自由滑项目比赛中。中新社记者 陈骥旻 摄 11月8日，在广东深圳举行的2026中国杯世界花样滑冰大奖赛进入第三个比赛日。中立运动员叶夫根尼·谢梅年科夺得男子单人滑项目季军。图为叶夫根尼·谢梅年科在男子单人滑·自由滑项目比赛中。中新社记者 陈骥旻 摄 11月8日，在广东深圳举行的2026中国杯世界花样滑冰大奖赛进入第三个比赛日。图为中国选手彭智铭在男子单人滑·自由滑项目比赛中。最终他在男子单人滑项目排名第十。中新社记者 陈骥旻 摄 11月8日，在广东深圳举行的2026中国杯世界花样滑冰大奖赛进入第三个比赛日。图为中国选手陈昱东在男子单人滑·自由滑项目比赛中。最终他在男子单人滑项目排名第九。中新社记者 陈骥旻 摄"
+        },
+        {
+          "title": "河南新乡：蔬菜智慧种植引民众参观打卡",
+          "link": "https://www.chinanews.com.cn/tp/2026/11-08/10728437.shtml",
+          "date": "Sun, 8 Nov 2026 18:24:53 +0800",
+          "summary": "图为工作人员正在管护有机蔬菜。 夏青华 摄 图为管道式水培蔬菜吸引民众拍照。 夏青华 摄 图为工作人员在查看温室内水培蔬菜生长情况。 夏青华 摄 图为双层深水培蔬菜种植模式吸引民众拍照。 夏青华 摄 图为民众在展馆一隅拍照打卡。 夏青华 摄"
+        },
+        {
+          "title": "重庆市第八届大学生艺术展演活动现场集中展演举行",
+          "link": "https://www.chinanews.com.cn/tp/2026/11-08/10728436.shtml",
+          "date": "Sun, 8 Nov 2026 18:23:49 +0800",
+          "summary": "图为活动现场，重庆外语外事学院的表演者表演《螃蟹调》。中新社记者 周毅 摄 图为活动现场，重庆大学的表演者表演群舞《峡江吟》。中新社记者 周毅 摄 图为活动现场，重庆机电职业技术大学的表演者表演群舞《中国芯》。中新社记者 周毅 摄 图为活动现场，西南大学的表演者表演《船歇三峡好想家》。中新社记者 周毅 摄"
+        },
+        {
+          "title": "通讯：APEC之城：出海路上的“侨”力量",
+          "link": "https://www.chinanews.com.cn/dwq/2026/11-08/10728447.shtml",
+          "date": "Sun, 8 Nov 2026 18:23:29 +0800",
+          "summary": "中新网深圳11月8日电 题：APEC之城：出海路上的“侨”力量"
+        },
+        {
+          "title": "（第九届进博会）三个“进博故事”里的安徽开放之约",
+          "link": "https://www.chinanews.com.cn/cj/2026/11-08/10728448.shtml",
+          "date": "Sun, 8 Nov 2026 18:22:35 +0800",
+          "summary": "中新网上海11月8日电 (记者 赵强)2026“进博故事”主题活动8日在国家会展中心(上海)举行。安徽省商务厅副厅长张弘强现场分享了三个“进博故事”：一颗泰国榴莲的跨海之旅、一条高端薄膜生产线的落地、一场“双会联动”的双向奔赴。"
+        },
+        {
+          "title": "厦门举办纪念孙中山先生诞辰160周年活动",
+          "link": "https://www.chinanews.com.cn/gn/2026/11-08/10728446.shtml",
+          "date": "Sun, 8 Nov 2026 18:21:47 +0800",
+          "summary": "中新网厦门11月8日电 (吴冠标)2026年11月12日是孙中山诞辰160周年纪念日。11月7日至8日，“怀中山宏愿·聚鹭岛同心——纪念孙中山先生诞辰160周年厦门纪念活动”举办，旨在缅怀孙中山的历史功勋，传承弘扬“振兴中华”的爱国精神，凝聚海内外中华儿女团结奋进力量。"
+        },
+        {
+          "title": "（第九届进博会）“早小硬”登台 张江科创新苗进博寻机",
+          "link": "https://www.chinanews.com.cn/cj/2026/11-08/10728451.shtml",
+          "date": "Sun, 8 Nov 2026 18:21:43 +0800",
+          "summary": "中新网上海11月8日电 (记者 李姝徵)第九届中国国际进口博览会(以下简称“进博会”)11月8日正在上海举行。在进博会张江孵创展团展位，多家“早小硬”科技企业将各自的看家本领变成可看、可体验的应用场景。"
+        },
+        {
+          "title": "2026徐志摩青春诗歌会在海宁落幕",
+          "link": "https://www.chinanews.com.cn/cul/2026/11-08/10728444.shtml",
+          "date": "Sun, 8 Nov 2026 18:20:47 +0800",
+          "summary": "中新网嘉兴11月8日电 第十一届徐志摩微诗歌大赛日前在浙江海宁颁奖。颁奖活动与“2026徐志摩青春诗歌会——我在海宁为你读诗”以“诗潮新生”为主题联合举办，并设人文对话、艺术歌曲演唱、诗歌朗诵等环节。"
+        },
+        {
+          "title": "美食文旅节目《寻味山海》走进辽宁建平体味土地的馈赠",
+          "link": "https://www.chinanews.com.cn/life/2026/11-08/10728449.shtml",
+          "date": "Sun, 8 Nov 2026 18:20:25 +0800",
+          "summary": "中新网北京11月8日电 大型风物美食文旅节目《寻味山海》7日晚在总台综合频道播出，观众跟随主持人走进辽宁建平，循着一缕谷香、一捧菌鲜、一碗肉香，体味这片土地的丰厚馈赠。"
+        }
+      ]
+    },
+    {
+      "id": "thepaper",
+      "name": "澎湃新闻",
+      "category": "general",
+      "adapter": "html",
+      "url": "https://www.thepaper.cn/",
+      "linkMatch": "newsDetail_forward",
+      "status": "ok",
+      "http": 200,
+      "ms": 22,
+      "items": [
+        {
+          "title": "从“临场应对”到“体系作战”，进博会的医疗保障有多顶？",
+          "link": "https://www.thepaper.cn/newsDetail_forward_34432313",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "澎湃新闻22件作品荣获2025年度上海市优秀新闻作品",
+          "link": "https://www.thepaper.cn/newsDetail_forward_34432617",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "两艘国产大型邮轮同框，吴淞口邮轮港运营规模持续领跑全国",
+          "link": "https://www.thepaper.cn/newsDetail_forward_34432302",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "赠澳门大熊猫后代“健健”“康康”平安抵达成都",
+          "link": "https://www.thepaper.cn/newsDetail_forward_34432893",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "日本自民党或考虑处分前首相石破茂",
+          "link": "https://www.thepaper.cn/newsDetail_forward_34432169",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "推荐中超大结局终出炉！大连英博完成大逆转，反超成都蓉城夺冠",
+          "link": "https://www.thepaper.cn/newsDetail_forward_34432757",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "推荐严防投稿环节学术不端行为，多家期刊明确停止邮箱投稿",
+          "link": "https://www.thepaper.cn/newsDetail_forward_34433098",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "推荐02:16AI平均检索26个网页，却只引用3个！GEO争夺战到底在争什么",
+          "link": "https://www.thepaper.cn/newsDetail_forward_34309523",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "推荐山西太原一高层建筑发生火灾，消防人员仍在扑救",
+          "link": "https://www.thepaper.cn/newsDetail_forward_34433435",
+          "date": "",
+          "summary": ""
+        }
+      ]
+    },
+    {
+      "id": "hzgov",
+      "name": "杭州市政府门户",
+      "category": "hangzhou",
+      "adapter": "html",
+      "url": "https://www.hangzhou.gov.cn/",
+      "linkMatch": "/art/",
+      "issuer": "杭州市人民政府",
+      "status": "ok",
+      "http": 200,
+      "ms": 122,
+      "items": [
+        {
+          "title": "中共杭州市委关于二十届中央联动巡视整...",
+          "link": "https://www.hangzhou.gov.cn/col/col1054955/art/2026/art_044dbedbcf2348d2824305e521a7c1f7.html",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "AI驱动创新 友城共话合作",
+          "link": "https://www.hangzhou.gov.cn/col/col812262/art/2026/art_6e9ad8411a404a199da0b1cc6422bb66.html",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "第二十届杭州文博会开幕",
+          "link": "https://www.hangzhou.gov.cn/col/col812262/art/2026/art_b50f1dd400e64da293f4f355773031da.html",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "临平走出AI产业融合新路径",
+          "link": "https://www.hangzhou.gov.cn/col/col812262/art/2026/art_894663bbfc1b469d83a6417fa25f2cc6.html",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "杭州推动全过程人民民主落地见效",
+          "link": "https://www.hangzhou.gov.cn/col/col812262/art/2026/art_67abec7263e24b24b738cf7d202793dd.html",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "杭州临空企业摘得“中国芯”大奖",
+          "link": "https://www.hangzhou.gov.cn/col/col812262/art/2026/art_184814574e8346c591949f6c79c80698.html",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "探索县域幼儿体教融合“萧山样本”",
+          "link": "https://www.hangzhou.gov.cn/col/col812262/art/2026/art_1c186c70856847ed9759be53bf77f53f.html",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "萧山医保让参保更便捷",
+          "link": "https://www.hangzhou.gov.cn/col/col812262/art/2026/art_1b4c58d8481f4a4690b9f8bdc3ade100.html",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "杭州城市新中心余杭中轴线建设观察",
+          "link": "https://www.hangzhou.gov.cn/col/col812262/art/2026/art_be4c6e7d774c48febe2813b26e76918a.html",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "以赛砺技 固本强基",
+          "link": "https://www.hangzhou.gov.cn/col/col812262/art/2026/art_e0a062d12e504662b4f9b0919efe51f0.html",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "飞檐斗拱下赏景古典园林中听剧",
+          "link": "https://www.hangzhou.gov.cn/col/col812268/art/2026/art_744772cb82594f0baa2810b9d633c3fa.html",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "96岁爷爷成功当上“银发咖啡师”",
+          "link": "https://www.hangzhou.gov.cn/col/col812270/art/2026/art_f061926750114c4b802386ca22c84694.html",
+          "date": "",
+          "summary": ""
+        }
+      ]
+    },
+    {
+      "id": "hznews",
+      "name": "杭州网",
+      "category": "hangzhou",
+      "adapter": "html",
+      "url": "https://news.hangzhou.com.cn/",
+      "linkMatch": "content_",
+      "status": "ok",
+      "http": 200,
+      "ms": 63,
+      "items": [
+        {
+          "title": "国货反向圈粉世界！进博会“来华必买清单”大上新",
+          "link": "https://news.hangzhou.com.cn/ttgz/content/2026-11/07/content_9368258.htm",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "中央气象台发布暴雪黄色预警 京津冀等局地有大到暴雪",
+          "link": "https://news.hangzhou.com.cn/ttgz/content/2026-11/07/content_9368257.htm",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "看电视先答题 硬核爸爸“魔改”电视火了",
+          "link": "https://news.hangzhou.com.cn/ttgz/content/2026-11/07/content_9368256.htm",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "“最强”厄尔尼诺来了 今年会是暖冬吗？",
+          "link": "https://news.hangzhou.com.cn/shxw/content/2026-11/08/content_9368461.htm",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "美债狂飙 或将触发“非常规措施”！",
+          "link": "https://news.hangzhou.com.cn/gjxw/content/2026-11/08/content_9368479.htm",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "一旦发作 剧痛难忍！这种病毒进入高发期",
+          "link": "https://news.hangzhou.com.cn/shxw/content/2026-11/08/content_9368457.htm",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "女子买一杯奶茶被拒入座 街区管理方回应",
+          "link": "https://news.hangzhou.com.cn/shxw/content/2026-11/08/content_9368459.htm",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "沪武高速安徽潜山段发生多车追尾 目前1死4伤",
+          "link": "https://news.hangzhou.com.cn/gnxw/content/2026-11/08/content_9368471.htm",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "七天内近五千名非法移民抵达西班牙加那利群岛",
+          "link": "https://news.hangzhou.com.cn/gjxw/content/2026-11/08/content_9368480.htm",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "“AI陈建斌”越来越逼真 陈建斌回应",
+          "link": "https://news.hangzhou.com.cn/shxw/content/2026-11/07/content_9368386.htm",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "华北北部降雪多到“发黑”",
+          "link": "https://news.hangzhou.com.cn/gnxw/content/2026-11/07/content_9368380.htm",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "人民领袖｜高原上 习近平让出自己的氧气袋",
+          "link": "https://news.hangzhou.com.cn/szxw/content/content_9368659.htm",
+          "date": "",
+          "summary": ""
+        }
+      ]
+    },
+    {
+      "id": "zjol",
+      "name": "浙江在线",
+      "category": "hangzhou",
+      "adapter": "html",
+      "url": "https://zjnews.zjol.com.cn/",
+      "linkMatch": "zjnews.zjol.com.cn/zjnews",
+      "status": "ok",
+      "http": 200,
+      "ms": 39,
+      "items": [
+        {
+          "title": "浙江省第十二届残疾人运动会在衢州开幕",
+          "link": "https://zjnews.zjol.com.cn/zjnews/202611/t20261108_32014563.shtml",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "文旦丰收加“邮”助农 玉环邮政打通田间寄递最后一公里",
+          "link": "https://zjnews.zjol.com.cn/zjnews/202611/t20261108_32014572.shtml",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "中国民营企业500强，五张榜单浙江连续三年全国第一！",
+          "link": "https://zjnews.zjol.com.cn/zjnews/202611/t20261108_32014573.shtml",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "三大集群拟入列“国家队” 宁波先进制造“组团进阶”",
+          "link": "https://zjnews.zjol.com.cn/zjnews/202611/t20261108_32015209.shtml",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "浙企借港出海，加速全球化布局 11月6日，一场“世界浙商 港通全球”浙江企业借港出海交流会在杭州举办，吸引了浙港两地工商界人士相聚一堂共话合作。",
+          "link": "https://zjnews.zjol.com.cn/zjnews/202611/t20261108_32015207.shtml",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "“飞行背包”赋能应急救援 拼豆机器人焕新工业领域 进博会技术装备展区，智能装备正在把“聪明”写进每一个动作里。",
+          "link": "https://zjnews.zjol.com.cn/zjnews/202611/t20261107_32014130.shtml",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "立冬补冬，浙江各地“进补菜单”大不同 在浙江，“补冬”没有标准答案，杭州的仓前掏羊锅、宁波的大头菜年糕、温州的酱油肉……各地吃法各有千秋，暖意融融。",
+          "link": "https://zjnews.zjol.com.cn/zjnews/202611/t20261107_32013387.shtml",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "文化、科技齐“整活”，文博“出新”又出彩 11月6日，杭州文博会进入第二天，“文化+科技”的融合主线愈发清晰，数字技术在文博会现场集体“出活”。",
+          "link": "https://zjnews.zjol.com.cn/zjnews/202611/t20261107_32013382.shtml",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "宁波新添36条“七彩惠民路” 今年的“七彩惠民路”项目推进中，宁波各级市政部门紧扣市民实际需求优化举措。",
+          "link": "https://zjnews.zjol.com.cn/zjnews/202611/t20261106_32011831.shtml",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "进度过半！苍南16.18公里滨海长廊，全新亮相丨《90早新闻》来了",
+          "link": "https://zjnews.zjol.com.cn/zjnews/90zxw/202611/t20261108_32014571.shtml",
+          "date": "",
+          "summary": ""
+        },
+        {
+          "title": "2026栖湖音乐嘉年华即将开唱！众多音乐人湖畔集结丨《90早新闻》来了",
+          "link": "https://zjnews.zjol.com.cn/zjnews/90zxw/202611/t20261107_32013381.shtml",
+          "date": "",
+          "summary": ""
+        }
+      ]
+    }
+  ]
+}

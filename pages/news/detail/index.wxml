@@ -1,0 +1,71 @@
+<!-- pages/news/detail/index.wxml - 正文、政策元信息、同事件报道 -->
+<view class="detail-page">
+
+  <!-- 加载中 -->
+  <view class="skeleton" wx:if="{{loading}}">
+    <view class="sk-card">
+      <view class="sk-line sk-title"></view>
+      <view class="sk-line sk-title"></view>
+      <view class="sk-line sk-sub"></view>
+      <view class="sk-line sk-body"></view>
+      <view class="sk-line sk-body"></view>
+    </view>
+  </view>
+
+  <!-- 错误态 -->
+  <state-view wx:elif="{{error}}" text="{{error}}" action-text="点我重试" bind:action="onRetry" />
+
+  <block wx:else>
+    <view class="article">
+      <view class="article-title">{{news.title}}</view>
+
+      <view class="article-meta">
+        <text class="meta-source">{{news.sourceName}}</text>
+        <text class="meta-dot">·</text>
+        <text class="meta-time">{{timeText}}</text>
+        <text class="meta-count" wx:if="{{news.sourceCount > 1}}">{{news.sourceCount}} 家媒体报道</text>
+      </view>
+
+      <view class="article-tags" wx:if="{{news.tags && news.tags.length}}">
+        <text class="article-tag" wx:for="{{news.tags}}" wx:key="*this" wx:for-item="tag">{{tag}}</text>
+      </view>
+
+      <!-- 政策元信息（R-10.4） -->
+      <view class="policy-box" wx:if="{{isPolicy && (news.issuer || news.docNo)}}">
+        <view class="policy-row" wx:if="{{news.issuer}}">
+          <text class="policy-label">发文机关</text>
+          <text class="policy-value">{{news.issuer}}</text>
+        </view>
+        <view class="policy-row" wx:if="{{news.docNo}}">
+          <text class="policy-label">文号</text>
+          <text class="policy-value">{{news.docNo}}</text>
+        </view>
+      </view>
+
+      <!-- 正文 -->
+      <rich-text class="article-content" wx:if="{{contentHtml}}" nodes="{{contentHtml}}"></rich-text>
+      <view class="article-summary" wx:elif="{{!isPolicy && news.summary}}">{{news.summary}}</view>
+      <view class="article-empty" wx:elif="{{isPolicy}}">该政策未提供正文，点击下方「复制原文链接」查看原文</view>
+      <view class="article-empty" wx:else>该报道未提供正文，点击下方「复制原文链接」查看原文</view>
+
+      <view class="article-truncated" wx:if="{{truncated}}">正文超过 5000 字，已截断，完整内容请查看原文</view>
+
+      <view class="article-actions">
+        <view class="action-btn" bindtap="onCopyLink">复制原文链接</view>
+      </view>
+    </view>
+
+    <!-- 同事件报道 -->
+    <block wx:if="{{related.length}}">
+      <view class="related-head">同一事件的其他报道</view>
+      <news-card
+        wx:for="{{related}}"
+        wx:key="id"
+        item="{{item}}"
+        show-summary="{{false}}"
+        bind:cardtap="onRelatedTap"
+      />
+    </block>
+  </block>
+
+</view>

@@ -1,0 +1,313 @@
+{
+  "rsshub": "https://rsshub.app",
+  "at": "2026-11-08T10:41:07.996Z",
+  "results": [
+    {
+      "id": "jiemian",
+      "name": "界面新闻",
+      "category": "finance",
+      "adapter": "rss",
+      "url": "https://a.jiemian.com/index.php?m=article&a=rss",
+      "status": "ok",
+      "http": 200,
+      "ms": 296,
+      "bytes": 24073,
+      "count": 30,
+      "sample": [
+        {
+          "title": "山西太原一高层建筑发生火灾，消防人员仍在扑救",
+          "link": "https://www.jiemian.com/article/15308211.html",
+          "date": "Sun, 08 Nov 2026 18:29:38 +0800"
+        },
+        {
+          "title": "AI辅助设计禽流感疫苗动物实验获进展",
+          "link": "https://www.jiemian.com/article/15308207.html",
+          "date": "Sun, 08 Nov 2026 18:21:29 +0800"
+        },
+        {
+          "title": "中央气象台发布寒潮蓝色预警",
+          "link": "https://www.jiemian.com/article/15308204.html",
+          "date": "Sun, 08 Nov 2026 18:18:15 +0800"
+        },
+        {
+          "title": "首期中国—新加坡高级官员交流项目成功举办",
+          "link": "https://www.jiemian.com/article/15308179.html",
+          "date": "Sun, 08 Nov 2026 18:04:50 +0800"
+        },
+        {
+          "title": "中国移动云公司与北京智谱华章科技股份有限公司签署合作协议",
+          "link": "https://www.jiemian.com/article/15308174.html",
+          "date": "Sun, 08 Nov 2026 17:53:33 +0800"
+        }
+      ]
+    },
+    {
+      "id": "yicai",
+      "name": "第一财经",
+      "category": "finance",
+      "adapter": "rsshub",
+      "path": "/firstory",
+      "url": "https://rsshub.app/firstory",
+      "status": "fail",
+      "http": 403,
+      "ms": 326,
+      "reason": "HTTP 403"
+    },
+    {
+      "id": "caixin",
+      "name": "财新",
+      "category": "finance",
+      "adapter": "rss",
+      "url": null,
+      "status": "todo",
+      "reason": "URL 未确定"
+    },
+    {
+      "id": "wallstreetcn",
+      "name": "华尔街见闻",
+      "category": "finance",
+      "adapter": "rsshub",
+      "path": "/wallstreetcn/news/global",
+      "url": "https://rsshub.app/wallstreetcn/news/global",
+      "status": "fail",
+      "http": 403,
+      "ms": 319,
+      "reason": "HTTP 403"
+    },
+    {
+      "id": "gov_cn",
+      "name": "中国政府网·政策",
+      "category": "policy",
+      "adapter": "html",
+      "url": "https://www.gov.cn/zhengce/",
+      "status": "ok",
+      "http": 200,
+      "ms": 117,
+      "bytes": 40356,
+      "pageTitle": "政策_中国政府网",
+      "anchors": 114
+    },
+    {
+      "id": "pbc",
+      "name": "中国人民银行",
+      "category": "policy",
+      "adapter": "html",
+      "url": "http://www.pbc.gov.cn/",
+      "status": "ok",
+      "http": 200,
+      "ms": 138,
+      "bytes": 141343,
+      "pageTitle": "中国人民银行",
+      "anchors": 281
+    },
+    {
+      "id": "mof",
+      "name": "财政部",
+      "category": "policy",
+      "adapter": "html",
+      "url": "https://www.mof.gov.cn/",
+      "status": "ok",
+      "http": 200,
+      "ms": 102,
+      "bytes": 2534,
+      "pageTitle": "",
+      "anchors": 0
+    },
+    {
+      "id": "csrc",
+      "name": "中国证监会",
+      "category": "policy",
+      "adapter": "html",
+      "url": "http://www.csrc.gov.cn/",
+      "status": "ok",
+      "http": 200,
+      "ms": 215,
+      "bytes": 221560,
+      "pageTitle": "中国证券监督管理委员会",
+      "anchors": 415
+    },
+    {
+      "id": "bbc_zh",
+      "name": "BBC 中文",
+      "category": "world",
+      "adapter": "rss",
+      "url": "https://feeds.bbci.co.uk/zhongwen/simp/rss.xml",
+      "status": "ok",
+      "http": 200,
+      "ms": 863,
+      "bytes": 34901,
+      "count": 42,
+      "sample": [
+        {
+          "title": "波蘭克拉科夫「極右翼」槍擊案致六人死亡 我們所知多少",
+          "link": "https://www.bbc.com/zhongwen/articles/c64g1n74j259o/trad?at_medium=RSS&at_campaign=rss",
+          "date": "Sun, 08 Nov 2026 10:31:39 GMT"
+        },
+        {
+          "title": "銷量急挫，Labubu熱潮正在退燒嗎？",
+          "link": "https://www.bbc.com/zhongwen/articles/c6r7yg9xkdy8o/trad?at_medium=RSS&at_campaign=rss",
+          "date": "Sun, 08 Nov 2026 07:35:18 GMT"
+        },
+        {
+          "title": "原歐盟脫歐談判代表巴尼耶：英國不能「挑肥揀瘦」",
+          "link": "https://www.bbc.com/zhongwen/articles/c9rkyg7728vxo/trad?at_medium=RSS&at_campaign=rss",
+          "date": "Sun, 08 Nov 2026 10:03:03 GMT"
+        },
+        {
+          "title": "法國血庫冷藏設備遭駭客攻擊 幕後黑手眾說紛紜",
+          "link": "https://www.bbc.com/zhongwen/articles/c6d7qqe9ngeyo/trad?at_medium=RSS&at_campaign=rss",
+          "date": "Sun, 08 Nov 2026 00:08:14 GMT"
+        },
+        {
+          "title": "從蔡康永、《VIVANT》到姆巴佩，北京為何區別處理「辱華」？",
+          "link": "https://www.bbc.com/zhongwen/articles/c6gm0rdzm0rdo/trad?at_medium=RSS&at_campaign=rss",
+          "date": "Fri, 06 Nov 2026 00:21:23 GMT"
+        }
+      ]
+    },
+    {
+      "id": "nyt_zh",
+      "name": "纽约时报中文网",
+      "category": "world",
+      "adapter": "rss",
+      "url": "https://cn.nytimes.com/rss/",
+      "status": "ok",
+      "http": 200,
+      "ms": 483,
+      "bytes": 29700,
+      "count": 20,
+      "sample": [
+        {
+          "title": "剥削与掌控：NewJeans秘密合同揭露K-pop阴暗面",
+          "link": "https://cn.nytimes.com/culture/20261106/kpop-newjeans-contract/?utm_source=RSS",
+          "date": "Fri, 06 Nov 2026 03:22:31 +0800"
+        },
+        {
+          "title": "“敌人是我们自己”：揭秘特朗普团队的历史性溃败",
+          "link": "https://cn.nytimes.com/usa/20261106/trump-midterms-losses-republicans/?utm_source=RSS",
+          "date": "Fri, 06 Nov 2026 03:19:13 +0800"
+        },
+        {
+          "title": "中期选举结果引发对人工智能监管焦虑，美股暴跌",
+          "link": "https://cn.nytimes.com/business/20261106/stocks-midterms-artificial-intelligence/?utm_source=RSS",
+          "date": "Fri, 06 Nov 2026 11:08:55 +0800"
+        },
+        {
+          "title": "众议院领导人要求黄仁勋出席简报会，说明与中国高管往来",
+          "link": "https://cn.nytimes.com/usa/20261106/house-republicans-nvidia-jensen-huang-china/?utm_source=RSS",
+          "date": "Fri, 06 Nov 2026 09:51:53 +0800"
+        },
+        {
+          "title": "中国阻止软银以54亿美元收购ABB机器人业务",
+          "link": "https://cn.nytimes.com/business/20261106/softbank-robotics-china-block/?utm_source=RSS",
+          "date": "Fri, 06 Nov 2026 08:26:43 +0800"
+        }
+      ]
+    },
+    {
+      "id": "zaobao",
+      "name": "联合早报",
+      "category": "world",
+      "adapter": "rss",
+      "url": null,
+      "status": "todo",
+      "reason": "URL 未确定"
+    },
+    {
+      "id": "weibo_hot",
+      "name": "微博热搜",
+      "category": "general",
+      "adapter": "rsshub",
+      "path": "/weibo/search/hot",
+      "url": "https://rsshub.app/weibo/search/hot",
+      "status": "fail",
+      "http": 403,
+      "ms": 334,
+      "reason": "HTTP 403"
+    },
+    {
+      "id": "zhihu_hot",
+      "name": "知乎热榜",
+      "category": "general",
+      "adapter": "rsshub",
+      "path": "/zhihu/hotlist",
+      "url": "https://rsshub.app/zhihu/hotlist",
+      "status": "fail",
+      "http": 403,
+      "ms": 320,
+      "reason": "HTTP 403"
+    },
+    {
+      "id": "thepaper",
+      "name": "澎湃新闻",
+      "category": "general",
+      "adapter": "rsshub",
+      "path": "/thepaper/featured",
+      "url": "https://rsshub.app/thepaper/featured",
+      "status": "fail",
+      "http": 403,
+      "ms": 317,
+      "reason": "HTTP 403"
+    },
+    {
+      "id": "chinanews",
+      "name": "中国新闻网",
+      "category": "general",
+      "adapter": "rss",
+      "url": null,
+      "status": "todo",
+      "reason": "URL 未确定"
+    },
+    {
+      "id": "hz_publish",
+      "name": "杭州发布",
+      "category": "hangzhou",
+      "adapter": "rsshub",
+      "path": "/wechat/hzfb",
+      "url": "https://rsshub.app/wechat/hzfb",
+      "status": "fail",
+      "http": 403,
+      "ms": 312,
+      "reason": "HTTP 403"
+    },
+    {
+      "id": "hz_gov",
+      "name": "杭州市政府门户",
+      "category": "hangzhou",
+      "adapter": "html",
+      "url": "https://www.hangzhou.gov.cn/",
+      "status": "ok",
+      "http": 200,
+      "ms": 127,
+      "bytes": 114776,
+      "pageTitle": "杭州市人民政府门户网站",
+      "anchors": 261
+    },
+    {
+      "id": "hz_daily",
+      "name": "杭州日报",
+      "category": "hangzhou",
+      "adapter": "html",
+      "url": "https://hzdaily.hangzhou.com.cn/",
+      "status": "ok",
+      "http": 200,
+      "ms": 109,
+      "bytes": 5789,
+      "pageTitle": "杭州日报报业集团数字报纸",
+      "anchors": 9
+    },
+    {
+      "id": "dskb",
+      "name": "都市快报",
+      "category": "hangzhou",
+      "adapter": "html",
+      "url": "https://hzdaily.hangzhou.com.cn/dskb/",
+      "status": "ok",
+      "http": 200,
+      "ms": 19,
+      "bytes": 90,
+      "pageTitle": "",
+      "anchors": 0
+    }
+  ]
+}

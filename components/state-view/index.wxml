@@ -1,0 +1,7 @@
+<!-- components/state-view/index.wxml - 空态/错误态 -->
+<view class="state">
+  <text class="state-text">{{text}}</text>
+  <text class="state-sub" wx:if="{{sub}}">{{sub}}</text>
+  <view class="state-btn" wx:if="{{actionText}}" bindtap="onAction" hover-class="state-btn-hover">{{actionText}}</view>
+  <view class="state-btn state-btn-plain" wx:if="{{plainActionText}}" bindtap="onPlain" hover-class="state-btn-hover">{{plainActionText}}</view>
+</view>

@@ -1,0 +1,61 @@
+<!-- pages/news/archive/index.wxml - 月历 + 当日列表（只读，R-12.2） -->
+<view class="archive-page">
+
+  <view class="month-bar">
+    <view class="month-nav {{canPrev ? '' : 'month-nav-disabled'}}" bindtap="onPrevMonth">‹</view>
+    <text class="month-text">{{monthText}}</text>
+    <view class="month-nav {{canNext ? '' : 'month-nav-disabled'}}" bindtap="onNextMonth">›</view>
+  </view>
+
+  <view class="week-row">
+    <text class="week-cell" wx:for="{{weekNames}}" wx:key="*this">{{item}}</text>
+  </view>
+
+  <view class="day-grid" wx:if="{{!loading}}">
+    <view
+      class="day-cell {{item.empty ? 'day-empty' : ''}} {{item.disabled ? 'day-disabled' : ''}} {{item.isSelected ? 'day-selected' : ''}} {{item.isToday ? 'day-today' : ''}}"
+      wx:for="{{cells}}"
+      wx:key="key"
+      data-day="{{item.day}}"
+      bindtap="onDayTap"
+    >
+      <text class="day-label">{{item.label}}</text>
+      <text class="day-count" wx:if="{{item.hasData}}">{{item.count}}</text>
+      <text class="day-dot" wx:elif="{{!item.empty && !item.disabled}}"></text>
+    </view>
+  </view>
+
+  <state-view wx:elif="{{error}}" text="{{error}}" action-text="点我重试" bind:action="onRetry" />
+
+  <view class="skeleton" wx:else>
+    <view class="sk-card">
+      <view class="sk-line sk-title"></view>
+      <view class="sk-line sk-sub"></view>
+    </view>
+  </view>
+
+  <view class="list-head">
+    <text class="list-total">{{selectedText}} · {{listTotal}} 条</text>
+    <text class="list-hint">只读回看</text>
+  </view>
+
+  <view class="state" wx:if="{{listLoading}}">
+    <text class="state-text">加载中…</text>
+  </view>
+
+  <view class="state" wx:elif="{{!items.length}}">
+    <text class="state-text">这一天没有记录</text>
+    <text class="state-sub">换个日期看看</text>
+  </view>
+
+  <block wx:else>
+    <news-card
+      wx:for="{{items}}"
+      wx:key="id"
+      item="{{item}}"
+      bind:cardtap="onCardTap"
+    />
+  </block>
+
+</view>
+

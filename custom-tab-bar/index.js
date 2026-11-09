@@ -5,7 +5,8 @@ Component({
     list: [
       { pagePath: '/pages/home/home', text: '首页', icon: '🏠' },
       { pagePath: '/pages/work/index/index', text: '工时', icon: '⏱️' },
-      { pagePath: '/pages/ledger/index/index', text: '账簿', icon: '💰' }
+      { pagePath: '/pages/ledger/index/index', text: '账簿', icon: '💰' },
+      { pagePath: '/pages/news/home/index', text: '热点', icon: '🔥' }
     ]
   },
   methods: {

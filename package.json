@@ -1,17 +1,26 @@
 {
   "name": "personal-ledger-miniprogram",
   "version": "1.0.0",
-  "description": "",
+  "description": "个人台账 + 每日热点（微信小程序 / 云开发）",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "probe": "node scripts/fetch-digest.mjs",
+    "test": "node --test \"cloudfunctions/news/test/**/*.test.js\" \"test/**/*.test.js\"",
+    "seed:gen": "node scripts/gen-seed-sources.mjs",
+    "seed:check": "node scripts/gen-seed-sources.mjs --check",
+    "init:db": "node scripts/init-collections.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@vant/weapp": "^1.11.6",
+    "cheerio": "^1.2.0",
     "dayjs": "^1.11.13",
+    "fast-xml-parser": "^5.12.0",
     "tdesign-miniprogram": "^1.8.0"
+  },
+  "devDependencies": {
+    "miniprogram-automator": "^0.13.0"
   }
 }

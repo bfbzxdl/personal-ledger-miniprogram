@@ -1,0 +1,12 @@
+{
+  "name": "news",
+  "version": "1.0.0",
+  "description": "每日热点：抓取、聚合、查询",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "1.0.0-rc.12",
+    "fast-xml-parser": "^5.12.0",
+    "node-fetch": "^2.7.0",
+    "wx-server-sdk": "~2.6.3"
+  }
+}

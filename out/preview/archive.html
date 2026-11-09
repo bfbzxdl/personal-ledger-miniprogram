@@ -1,0 +1,1146 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>预览 · 归档</title>
+<style>
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: #e9ecef; font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  display: flex; justify-content: center; padding: 16px 0 40px;
+}
+.preview-note {
+  position: fixed; left: 8px; top: 8px; z-index: 10; font-size: 11px; color: #666;
+  background: #fff8e1; border: 1px solid #f0d58c; border-radius: 6px; padding: 4px 8px;
+}
+.phone {
+  width: 390px; background: #f5f5f5; position: relative; overflow: hidden;
+  box-shadow: 0 8px 30px rgba(0,0,0,.12); border-radius: 18px; padding-bottom: 56px;
+}
+.phone-page { background: #f5f5f5; font-size: 14.56px; color: #333; }
+.nav-bar {
+  height: 44px; background: #07c160; color: #fff; display: flex; align-items: center;
+  justify-content: center; font-size: 16px; font-weight: 600;
+}
+.tab-bar {
+  position: absolute; bottom: 0; left: 0; right: 0; display: flex; background: #fff;
+  border-top: 1px solid #e5e5e5; z-index: 9;
+}
+.tab-item { flex: 1; display: flex; flex-direction: column; align-items: center; padding: 7px 0 5px; }
+.tab-icon { font-size: 22.88px; line-height: 1.2; }
+.tab-text { font-size: 15.6px; color: #999; margin-top: 3px; line-height: 1.2; }
+.tab-item.active .tab-text { color: #07c160; font-weight: 700; }
+/* app.wxss 全局样式 - 绿色主题 + 大卡片布局 */
+.phone-page {
+  background-color: #f5f5f5;
+  font-size: 14.56px;
+  color: #333333;
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue',
+    'PingFang SC', 'Microsoft YaHei', sans-serif;
+}
+
+/* 大卡片基础样式（全局通用） */
+.card {
+  background: #ffffff;
+  border-radius: 12.48px;
+  box-shadow: 0 4.16px 12.48px rgba(0, 0, 0, 0.06);
+  padding: 16.64px;
+  margin: 0 12.48px 12.48px 12.48px;
+  box-sizing: border-box;
+}
+
+/* 首页壁纸卡片特殊处理 */
+.card-wallpaper {
+  position: relative;
+  height: 208px;
+  overflow: hidden;
+  padding: 0;
+  margin: 12.48px 12.48px 12.48px 12.48px;
+  border-radius: 12.48px;
+  box-shadow: 0 4.16px 12.48px rgba(0, 0, 0, 0.06);
+}
+
+.card-wallpaper .bg-img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-wallpaper .quote-text {
+  position: absolute;
+  bottom: 20.8px;
+  left: 16.64px;
+  right: 16.64px;
+  color: #ffffff;
+  font-size: 16.64px;
+  font-weight: bold;
+  text-shadow: 0 1.04px 4.16px rgba(0, 0, 0, 0.5);
+}
+
+/* pages/news/home/index.wxss - 热点页布局 */
+.news-page {
+  padding-top: 8.32px;
+  padding-bottom: 20.8px;
+}
+
+/* 分段 */
+.segment-bar {
+  display: flex;
+  margin: 0 12.48px 8.32px 12.48px;
+  background: #ffffff;
+  border-radius: 8.32px;
+  padding: 4.16px;
+  box-shadow: 0 3.12px 8.32px rgba(0, 0, 0, 0.05);
+}
+
+.segment {
+  flex: 1;
+  text-align: center;
+  padding: 8.32px 0;
+  font-size: 14.56px;
+  color: #666666;
+  border-radius: 6.24px;
+}
+
+.segment-active {
+  background: rgba(7, 193, 96, 0.1);
+  color: #07c160;
+  font-weight: 700;
+}
+
+/* 日期条 */
+.day-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 12.48px 8.32px 12.48px;
+  padding: 0 2.08px;
+}
+
+.day-text {
+  font-size: 13.52px;
+  color: #666666;
+  font-weight: 600;
+}
+
+.day-more {
+  font-size: 12.48px;
+  color: #07c160;
+}
+
+/* 分类 */
+.cat-bar {
+  display: flex;
+  white-space: nowrap;
+  margin: 0 12.48px 8.32px 12.48px;
+}
+
+.cat {
+  display: inline-block;
+  padding: 5.2px 13.52px;
+  margin-right: 8.32px;
+  font-size: 13.52px;
+  color: #555555;
+  background: #ffffff;
+  border-radius: 519.48px;
+  border: 0.52px solid #eeeeee;
+}
+
+.cat-active {
+  color: #ffffff;
+  background: #07c160;
+  border-color: #07c160;
+  font-weight: 600;
+}
+
+/* 标签筛选 */
+.tag-bar {
+  display: flex;
+  white-space: nowrap;
+  margin: 0 12.48px 8.32px 12.48px;
+}
+
+.tag-chip {
+  display: inline-block;
+  padding: 3.12px 10.4px;
+  margin-right: 6.24px;
+  font-size: 12.48px;
+  color: #07c160;
+  background: rgba(7, 193, 96, 0.08);
+  border-radius: 4.16px;
+}
+
+.tag-chip-active {
+  color: #ffffff;
+  background: #07c160;
+}
+
+/* 列表头/尾 */
+.list-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2.08px 16.64px 6.24px 16.64px;
+  font-size: 11.44px;
+  color: #aaaaaa;
+}
+
+.list-total {
+  color: #888888;
+}
+
+.list-updated {
+  color: #bbbbbb;
+}
+
+.list-footer {
+  text-align: center;
+  font-size: 12.48px;
+  color: #bbbbbb;
+  padding: 10.4px 0 20.8px 0;
+}
+
+/* 热榜 */
+.hot-head {
+  display: flex;
+  flex-direction: column;
+  margin: 4.16px 16.64px 10.4px 16.64px;
+}
+
+.hot-title {
+  font-size: 17.68px;
+  font-weight: 700;
+  color: #222222;
+}
+
+.hot-sub {
+  margin-top: 3.12px;
+  font-size: 11.44px;
+  color: #aaaaaa;
+}
+
+/* 搜索 */
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin: 0 12.48px 8.32px 12.48px;
+}
+
+.search-input {
+  flex: 1;
+  height: 39.52px;
+  line-height: 39.52px;
+  padding: 0 12.48px;
+  font-size: 14.56px;
+  background: #ffffff;
+  border-radius: 519.48px;
+  box-sizing: border-box;
+}
+
+.search-placeholder {
+  color: #bbbbbb;
+  font-size: 13.52px;
+}
+
+.search-btn {
+  flex: none;
+  margin-left: 8.32px;
+  padding: 0 16.64px;
+  height: 39.52px;
+  line-height: 39.52px;
+  font-size: 14.56px;
+  color: #ffffff;
+  background: #07c160;
+  border-radius: 519.48px;
+}
+
+.range-bar {
+  display: flex;
+  margin: 0 12.48px 10.4px 12.48px;
+}
+
+.range-chip {
+  padding: 4.16px 12.48px;
+  margin-right: 7.28px;
+  font-size: 12.48px;
+  color: #666666;
+  background: #ffffff;
+  border: 0.52px solid #eeeeee;
+  border-radius: 519.48px;
+}
+
+.range-active {
+  color: #07c160;
+  border-color: #07c160;
+  background: rgba(7, 193, 96, 0.08);
+  font-weight: 600;
+}
+
+/* 搜索历史 */
+.history {
+  margin: 4.16px 12.48px 0 12.48px;
+}
+
+.history-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8.32px;
+}
+
+.history-title {
+  font-size: 13.52px;
+  color: #666666;
+  font-weight: 600;
+}
+
+.history-clear {
+  font-size: 12.48px;
+  color: #999999;
+}
+
+.history-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.history-chip {
+  padding: 5.2px 12.48px;
+  margin: 0 8.32px 8.32px 0;
+  font-size: 12.48px;
+  color: #555555;
+  background: #ffffff;
+  border-radius: 519.48px;
+}
+
+/* 昨日数据兜底提示 */
+.notice-bar {
+  margin: 0 12.48px 8.32px 12.48px;
+  padding: 7.28px 10.4px;
+  font-size: 12.48px;
+  color: #8a6d3b;
+  background: #fff8e1;
+  border-radius: 5.2px;
+}
+
+/* 骨架屏 */
+.skeleton {
+  padding-top: 2.08px;
+}
+
+.sk-card {
+  background: #ffffff;
+  border-radius: 10.4px;
+  margin: 0 12.48px 10.4px 12.48px;
+  padding: 14.56px 12.48px;
+  box-shadow: 0 3.12px 8.32px rgba(0, 0, 0, 0.04);
+}
+
+.sk-line {
+  background: #f0f0f0;
+  border-radius: 4.16px;
+  height: 14.56px;
+  margin-bottom: 8.32px;
+}
+
+.sk-title {
+  width: 92%;
+  height: 17.68px;
+}
+
+.sk-sub {
+  width: 68%;
+}
+
+.sk-meta {
+  width: 36%;
+  height: 11.44px;
+  margin-bottom: 0;
+}
+
+/* 空态/错误态 */
+.state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 49.92px 24.96px;
+}
+
+.state-text {
+  font-size: 15.6px;
+  color: #666666;
+  text-align: center;
+}
+
+.state-sub {
+  margin-top: 6.24px;
+  font-size: 12.48px;
+  color: #aaaaaa;
+}
+
+.state-btn {
+  margin-top: 16.64px;
+  padding: 8.32px 24.96px;
+  font-size: 13.52px;
+  color: #07c160;
+  border: 0.52px solid #07c160;
+  border-radius: 519.48px;
+}
+
+.state-btn-plain {
+  margin-top: 8.32px;
+  color: #999999;
+  border-color: #dddddd;
+}
+
+/* pages/news/detail/index.wxss - 详情页排版 */
+.detail-page {
+  padding-top: 8.32px;
+  padding-bottom: 20.8px;
+}
+
+.article {
+  background: #ffffff;
+  border-radius: 10.4px;
+  margin: 0 12.48px 10.4px 12.48px;
+  padding: 16.64px 14.56px;
+  box-shadow: 0 3.12px 8.32px rgba(0, 0, 0, 0.05);
+}
+
+.article-title {
+  font-size: 20.8px;
+  line-height: 1.4;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.article-meta {
+  margin-top: 10.4px;
+  display: flex;
+  align-items: center;
+  font-size: 12.48px;
+  color: #999999;
+}
+
+.meta-source {
+  max-width: 40%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.meta-dot {
+  margin: 0 5.2px;
+}
+
+.meta-time {
+  flex: none;
+}
+
+.meta-count {
+  margin-left: 8.32px;
+  color: #fa5151;
+}
+
+.article-tags {
+  margin-top: 8.32px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.article-tag {
+  font-size: 11.44px;
+  color: #07c160;
+  background: rgba(7, 193, 96, 0.1);
+  border-radius: 3.12px;
+  padding: 2.08px 6.24px;
+  margin-right: 6.24px;
+  margin-bottom: 4.16px;
+}
+
+/* 政策元信息 */
+.policy-box {
+  margin-top: 12.48px;
+  padding: 10.4px 12.48px;
+  background: #f7f9f7;
+  border-left: 3.12px solid #07c160;
+  border-radius: 5.2px;
+}
+
+.policy-row {
+  display: flex;
+  font-size: 13.52px;
+  line-height: 1.8;
+}
+
+.policy-label {
+  flex: none;
+  width: 72.8px;
+  color: #999999;
+}
+
+.policy-value {
+  flex: 1;
+  color: #333333;
+}
+
+/* 正文 */
+.article-content {
+  margin-top: 14.56px;
+  font-size: 16.12px;
+  line-height: 1.75;
+  color: #333333;
+}
+
+.article-summary {
+  margin-top: 12.48px;
+  font-size: 15.6px;
+  line-height: 1.7;
+  color: #555555;
+}
+
+.article-empty {
+  margin-top: 14.56px;
+  padding: 16.64px 12.48px;
+  font-size: 14.04px;
+  line-height: 1.6;
+  color: #888888;
+  background: #fafafa;
+  border-radius: 6.24px;
+  text-align: center;
+}
+
+.article-truncated {
+  margin-top: 10.4px;
+  font-size: 12.48px;
+  color: #fa9d3b;
+}
+
+.article-actions {
+  margin-top: 18.72px;
+  display: flex;
+  justify-content: center;
+}
+
+.action-btn {
+  padding: 9.36px 29.12px;
+  font-size: 14.56px;
+  color: #07c160;
+  border: 0.52px solid #07c160;
+  border-radius: 519.48px;
+}
+
+/* 同事件报道 */
+.related-head {
+  margin: 6.24px 16.64px 8.32px 16.64px;
+  font-size: 14.56px;
+  font-weight: 600;
+  color: #444444;
+}
+
+/* 骨架屏 */
+.skeleton {
+  padding-top: 4.16px;
+}
+
+.sk-card {
+  background: #ffffff;
+  border-radius: 10.4px;
+  margin: 0 12.48px 10.4px 12.48px;
+  padding: 16.64px 14.56px;
+}
+
+.sk-line {
+  background: #f0f0f0;
+  border-radius: 4.16px;
+  height: 15.6px;
+  margin-bottom: 10.4px;
+}
+
+.sk-title {
+  height: 20.8px;
+  width: 92%;
+}
+
+.sk-sub {
+  width: 50%;
+  height: 12.48px;
+}
+
+.sk-body {
+  width: 100%;
+  height: 13.52px;
+}
+
+/* 错误态 */
+.state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 62.4px 24.96px;
+}
+
+.state-text {
+  font-size: 15.6px;
+  color: #666666;
+}
+
+.state-btn {
+  margin-top: 16.64px;
+  padding: 8.32px 24.96px;
+  font-size: 13.52px;
+  color: #07c160;
+  border: 0.52px solid #07c160;
+  border-radius: 519.48px;
+}
+
+/* pages/news/archive/index.wxss - 月历 + 列表 */
+.archive-page {
+  padding-top: 8.32px;
+  padding-bottom: 20.8px;
+}
+
+.month-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 12.48px 8.32px 12.48px;
+  padding: 8.32px 12.48px;
+  background: #ffffff;
+  border-radius: 8.32px;
+}
+
+.month-nav {
+  width: 33.28px;
+  height: 33.28px;
+  line-height: 33.28px;
+  text-align: center;
+  font-size: 20.8px;
+  color: #07c160;
+}
+
+.month-nav-disabled {
+  color: #dddddd;
+}
+
+.month-text {
+  font-size: 16.64px;
+  font-weight: 700;
+  color: #222222;
+}
+
+.week-row {
+  display: flex;
+  margin: 0 12.48px 4.16px 12.48px;
+}
+
+.week-cell {
+  flex: 1;
+  text-align: center;
+  font-size: 11.44px;
+  color: #aaaaaa;
+}
+
+.day-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 12.48px 8.32px 12.48px;
+  background: #ffffff;
+  border-radius: 8.32px;
+  padding: 6.24px 4.16px;
+}
+
+.day-cell {
+  width: 14.28%;
+  height: 47.84px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6.24px;
+}
+
+.day-empty {
+  background: transparent;
+}
+
+.day-label {
+  font-size: 14.56px;
+  color: #333333;
+}
+
+.day-count {
+  font-size: 9.36px;
+  color: #07c160;
+  margin-top: 1.04px;
+}
+
+.day-dot {
+  width: 4.16px;
+  height: 4.16px;
+  border-radius: 50%;
+  background: #e5e5e5;
+  margin-top: 3.12px;
+}
+
+.day-disabled .day-label {
+  color: #cccccc;
+}
+
+.day-today .day-label {
+  color: #07c160;
+  font-weight: 700;
+}
+
+.day-selected {
+  background: rgba(7, 193, 96, 0.12);
+}
+
+.day-selected .day-label {
+  color: #07c160;
+  font-weight: 700;
+}
+
+.list-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4.16px 16.64px 8.32px 16.64px;
+  font-size: 12.48px;
+  color: #888888;
+}
+
+.list-total {
+  font-weight: 600;
+  color: #555555;
+}
+
+.list-hint {
+  color: #bbbbbb;
+}
+
+/* 状态 */
+.state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 31.2px 24.96px;
+}
+
+.state-text {
+  font-size: 15.6px;
+  color: #666666;
+}
+
+.state-sub {
+  margin-top: 6.24px;
+  font-size: 12.48px;
+  color: #aaaaaa;
+}
+
+.state-btn {
+  margin-top: 16.64px;
+  padding: 8.32px 24.96px;
+  font-size: 13.52px;
+  color: #07c160;
+  border: 0.52px solid #07c160;
+  border-radius: 519.48px;
+}
+
+/* 骨架屏 */
+.skeleton {
+  padding: 0 12.48px;
+}
+
+.sk-card {
+  background: #ffffff;
+  border-radius: 10.4px;
+  padding: 14.56px 12.48px;
+}
+
+.sk-line {
+  background: #f0f0f0;
+  border-radius: 4.16px;
+  height: 15.6px;
+  margin-bottom: 8.32px;
+}
+
+.sk-title {
+  width: 88%;
+}
+
+.sk-sub {
+  width: 50%;
+  height: 12.48px;
+  margin-bottom: 0;
+}
+
+/* components/news-card/index.wxss - 卡片：左文右图，无图时文字自动占满 */
+.news-card {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  background: #ffffff;
+  border-radius: 10.4px;
+  padding: 14.56px 12.48px;
+  margin: 0 12.48px 10.4px 12.48px;
+  box-shadow: 0 3.12px 8.32px rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+  min-height: 93.6px;
+}
+
+.news-card-hover {
+  background: #f7f7f7;
+}
+
+.rank-badge {
+  flex: none;
+  width: 22.88px;
+  height: 22.88px;
+  line-height: 22.88px;
+  margin-right: 8.32px;
+  text-align: center;
+  border-radius: 5.2px;
+  font-size: 13.52px;
+  font-weight: 700;
+  color: #999999;
+  background: #f2f2f2;
+}
+
+.rank-top {
+  color: #ffffff;
+  background: #fa5151;
+}
+
+.card-change {
+  position: absolute;
+  top: 8.32px;
+  right: 10.4px;
+  font-size: 10.4px;
+  line-height: 1.4;
+  padding: 1.04px 5.2px;
+  border-radius: 4.16px;
+}
+
+.change-up {
+  color: #fa5151;
+  background: rgba(250, 81, 81, 0.1);
+}
+
+.change-down {
+  color: #07c160;
+  background: rgba(7, 193, 96, 0.1);
+}
+
+.change-new {
+  color: #576b95;
+  background: rgba(87, 107, 149, 0.1);
+}
+
+.card-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.card-title {
+  font-size: 16.64px;
+  line-height: 1.45;
+  font-weight: 600;
+  color: #222222;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+.card-tags {
+  margin-top: 6.24px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-tag {
+  font-size: 11.44px;
+  color: #07c160;
+  background: rgba(7, 193, 96, 0.1);
+  border-radius: 3.12px;
+  padding: 1.04px 5.2px;
+  margin-right: 5.2px;
+  margin-bottom: 3.12px;
+}
+
+.card-summary {
+  margin-top: 6.24px;
+  font-size: 13.52px;
+  line-height: 1.5;
+  color: #888888;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.card-meta {
+  margin-top: 7.28px;
+  display: flex;
+  align-items: center;
+  font-size: 11.44px;
+  color: #aaaaaa;
+}
+
+.meta-source {
+  max-width: 40%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.meta-dot {
+  margin: 0 4.16px;
+}
+
+.meta-time {
+  flex: none;
+}
+
+.meta-hot {
+  margin-left: 6.24px;
+  color: #fa5151;
+}
+
+.card-cover {
+  flex: none;
+  width: 104px;
+  height: 72.8px;
+  margin-left: 10.4px;
+  border-radius: 6.24px;
+  background: #f2f2f2;
+}
+
+/* components/trend-strip/index.wxss - 热搜：两列，置顶 3 名高亮 */
+.trend {
+  background: #ffffff;
+  border-radius: 10.4px;
+  margin: 0 12.48px 10.4px 12.48px;
+  padding: 12.48px 12.48px 4.16px 12.48px;
+  box-shadow: 0 3.12px 8.32px rgba(0, 0, 0, 0.05);
+}
+
+.trend-head {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 6.24px;
+}
+
+.trend-title {
+  font-size: 15.6px;
+  font-weight: 700;
+  color: #222222;
+}
+
+.trend-sub {
+  margin-left: 6.24px;
+  font-size: 11.44px;
+  color: #bbbbbb;
+}
+
+.trend-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.trend-item {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  padding: 6.24px 4.16px 6.24px 0;
+  box-sizing: border-box;
+}
+
+.trend-item-hover {
+  opacity: 0.6;
+}
+
+.trend-rank {
+  flex: none;
+  width: 16.64px;
+  text-align: center;
+  font-size: 12.48px;
+  font-weight: 700;
+  color: #bbbbbb;
+  margin-right: 5.2px;
+}
+
+.trend-rank-top {
+  color: #fa5151;
+}
+
+.trend-word {
+  flex: 1;
+  min-width: 0;
+  font-size: 13.52px;
+  color: #444444;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+</style>
+</head>
+<body>
+<div class="preview-note">静态预览 · 非小程序运行时</div>
+<div class="phone">
+  <div class="nav-bar">归档</div>
+  <div class="phone-page">
+    <div class="month-bar"><div class="month-nav">‹</div><span class="month-text">2026 年 11 月</span><div class="month-nav month-nav-disabled">›</div></div>
+  <div class="week-row"><span class="week-cell">日</span><span class="week-cell">一</span><span class="week-cell">二</span><span class="week-cell">三</span><span class="week-cell">四</span><span class="week-cell">五</span><span class="week-cell">六</span></div>
+  <div class="day-grid"><div class="day-cell   ">
+      <span class="day-label">1</span>
+      <span class="day-dot"></span>
+    </div><div class="day-cell   ">
+      <span class="day-label">2</span>
+      <span class="day-dot"></span>
+    </div><div class="day-cell   ">
+      <span class="day-label">3</span>
+      <span class="day-dot"></span>
+    </div><div class="day-cell   ">
+      <span class="day-label">4</span>
+      <span class="day-dot"></span>
+    </div><div class="day-cell   ">
+      <span class="day-label">5</span>
+      <span class="day-dot"></span>
+    </div><div class="day-cell   ">
+      <span class="day-label">6</span>
+      <span class="day-dot"></span>
+    </div><div class="day-cell   ">
+      <span class="day-label">7</span>
+      <span class="day-dot"></span>
+    </div><div class="day-cell   ">
+      <span class="day-label">8</span>
+      <span class="day-dot"></span>
+    </div><div class="day-cell  day-selected day-today">
+      <span class="day-label">9</span>
+      <span class="day-count">330</span>
+    </div><div class="day-cell day-disabled  ">
+      <span class="day-label">10</span>
+      <span class="day-dot"></span>
+    </div><div class="day-cell day-disabled  ">
+      <span class="day-label">11</span>
+      <span class="day-dot"></span>
+    </div><div class="day-cell day-disabled  ">
+      <span class="day-label">12</span>
+      <span class="day-dot"></span>
+    </div><div class="day-cell day-disabled  ">
+      <span class="day-label">13</span>
+      <span class="day-dot"></span>
+    </div><div class="day-cell day-disabled  ">
+      <span class="day-label">14</span>
+      <span class="day-dot"></span>
+    </div><div class="day-cell day-disabled  ">
+      <span class="day-label">15</span>
+      <span class="day-dot"></span>
+    </div><div class="day-cell day-disabled  ">
+      <span class="day-label">16</span>
+      <span class="day-dot"></span>
+    </div><div class="day-cell day-disabled  ">
+      <span class="day-label">17</span>
+      <span class="day-dot"></span>
+    </div><div class="day-cell day-disabled  ">
+      <span class="day-label">18</span>
+      <span class="day-dot"></span>
+    </div><div class="day-cell day-disabled  ">
+      <span class="day-label">19</span>
+      <span class="day-dot"></span>
+    </div><div class="day-cell day-disabled  ">
+      <span class="day-label">20</span>
+      <span class="day-dot"></span>
+    </div><div class="day-cell day-disabled  ">
+      <span class="day-label">21</span>
+      <span class="day-dot"></span>
+    </div><div class="day-cell day-disabled  ">
+      <span class="day-label">22</span>
+      <span class="day-dot"></span>
+    </div><div class="day-cell day-disabled  ">
+      <span class="day-label">23</span>
+      <span class="day-dot"></span>
+    </div><div class="day-cell day-disabled  ">
+      <span class="day-label">24</span>
+      <span class="day-dot"></span>
+    </div><div class="day-cell day-disabled  ">
+      <span class="day-label">25</span>
+      <span class="day-dot"></span>
+    </div><div class="day-cell day-disabled  ">
+      <span class="day-label">26</span>
+      <span class="day-dot"></span>
+    </div><div class="day-cell day-disabled  ">
+      <span class="day-label">27</span>
+      <span class="day-dot"></span>
+    </div><div class="day-cell day-disabled  ">
+      <span class="day-label">28</span>
+      <span class="day-dot"></span>
+    </div><div class="day-cell day-disabled  ">
+      <span class="day-label">29</span>
+      <span class="day-dot"></span>
+    </div><div class="day-cell day-disabled  ">
+      <span class="day-label">30</span>
+      <span class="day-dot"></span>
+    </div></div>
+  <div class="list-head"><span class="list-total">11 月 9 日 · 330 条</span><span class="list-hint">只读回看</span></div>
+  <div class="news-card">
+    
+    
+    <div class="card-body">
+      <div class="card-title">A股反弹行情能走多远？投资主线有哪些？十大券商策略来了</div>
+      
+      
+      <div class="card-meta">
+        <span class="meta-source">财联社</span>
+        <span class="meta-dot">·</span><span class="meta-time">刚刚</span>
+        <span class="meta-hot">2 家媒体报道</span>
+      </div>
+    </div>
+    
+  </div><div class="news-card">
+    
+    
+    <div class="card-body">
+      <div class="card-title">山西太原一公寓发生火灾 致5人遇难</div>
+      
+      <div class="card-summary">中新网太原11月8日电 (记者 胡健)山西省太原市“迎泽发布”8日晚间发布通报称，当日发生在迎泽区的火灾致5人遇难。</div>
+      <div class="card-meta">
+        <span class="meta-source">中国新闻网</span>
+        <span class="meta-dot">·</span><span class="meta-time">2 小时前</span>
+        <span class="meta-hot">2 家媒体报道</span>
+      </div>
+    </div>
+    
+  </div><div class="news-card">
+    
+    
+    <div class="card-body">
+      <div class="card-title">埃及列车脱轨事故致司机死亡</div>
+      
+      
+      <div class="card-meta">
+        <span class="meta-source">界面新闻</span>
+        <span class="meta-dot">·</span><span class="meta-time">4 小时前</span>
+        <span class="meta-hot">2 家媒体报道</span>
+      </div>
+    </div>
+    
+  </div><div class="news-card">
+    
+    
+    <div class="card-body">
+      <div class="card-title">埃及发生列车脱轨事故致至少50人受伤</div>
+      
+      
+      <div class="card-meta">
+        <span class="meta-source">界面新闻</span>
+        <span class="meta-dot">·</span><span class="meta-time">4 小时前</span>
+        <span class="meta-hot">2 家媒体报道</span>
+      </div>
+    </div>
+    
+  </div>
+  </div>
+  <div class="tab-bar"><div class="tab-item "><span class="tab-icon">🏠</span><span class="tab-text">首页</span></div><div class="tab-item "><span class="tab-icon">⏱️</span><span class="tab-text">工时</span></div><div class="tab-item "><span class="tab-icon">💰</span><span class="tab-text">账簿</span></div><div class="tab-item active"><span class="tab-icon">🔥</span><span class="tab-text">热点</span></div></div>
+</div>
+</body></html>

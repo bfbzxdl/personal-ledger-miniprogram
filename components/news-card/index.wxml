@@ -1,0 +1,31 @@
+<!-- components/news-card/index.wxml - 有图/无图、有摘要/无摘要均保持固定节奏 -->
+<view class="news-card" hover-class="news-card-hover" bindtap="onTap">
+  <view class="rank-badge {{rank <= 3 ? 'rank-top' : ''}}" wx:if="{{rank > 0}}">{{rank}}</view>
+  <text class="card-change change-{{changeType}}" wx:if="{{changeText}}">{{changeText}}</text>
+
+  <view class="card-body">
+    <view class="card-title">{{item.title}}</view>
+
+    <view class="card-tags" wx:if="{{item.tags && item.tags.length}}">
+      <text class="card-tag" wx:for="{{item.tags}}" wx:key="*this" wx:for-item="tag">{{tag}}</text>
+    </view>
+
+    <view class="card-summary" wx:if="{{showSummary && item.summary}}">{{item.summary}}</view>
+
+    <view class="card-meta">
+      <text class="meta-source">{{item.sourceName}}</text>
+      <text class="meta-dot" wx:if="{{timeText}}">·</text>
+      <text class="meta-time" wx:if="{{timeText}}">{{timeText}}</text>
+      <text class="meta-hot" wx:if="{{item.sourceCount > 1}}">{{item.sourceCount}} 家媒体报道</text>
+    </view>
+  </view>
+
+  <image
+    wx:if="{{item.cover && coverOk}}"
+    class="card-cover"
+    src="{{item.cover}}"
+    mode="aspectFill"
+    lazy-load
+    binderror="onImageError"
+  />
+</view>

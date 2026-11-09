@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "归档",
+  "usingComponents": {
+    "news-card": "/components/news-card/index",
+    "state-view": "/components/state-view/index"
+  }
+}

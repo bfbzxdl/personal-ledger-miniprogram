@@ -1,0 +1,180 @@
+/* pages/news/archive/index.wxss - 月历 + 列表 */
+.archive-page {
+  padding-top: 16rpx;
+  padding-bottom: 40rpx;
+}
+
+.month-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 24rpx 16rpx 24rpx;
+  padding: 16rpx 24rpx;
+  background: #ffffff;
+  border-radius: 16rpx;
+}
+
+.month-nav {
+  width: 64rpx;
+  height: 64rpx;
+  line-height: 64rpx;
+  text-align: center;
+  font-size: 40rpx;
+  color: #07c160;
+}
+
+.month-nav-disabled {
+  color: #dddddd;
+}
+
+.month-text {
+  font-size: 32rpx;
+  font-weight: 700;
+  color: #222222;
+}
+
+.week-row {
+  display: flex;
+  margin: 0 24rpx 8rpx 24rpx;
+}
+
+.week-cell {
+  flex: 1;
+  text-align: center;
+  font-size: 22rpx;
+  color: #aaaaaa;
+}
+
+.day-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 24rpx 16rpx 24rpx;
+  background: #ffffff;
+  border-radius: 16rpx;
+  padding: 12rpx 8rpx;
+}
+
+.day-cell {
+  width: 14.28%;
+  height: 92rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12rpx;
+}
+
+.day-empty {
+  background: transparent;
+}
+
+.day-label {
+  font-size: 28rpx;
+  color: #333333;
+}
+
+.day-count {
+  font-size: 18rpx;
+  color: #07c160;
+  margin-top: 2rpx;
+}
+
+.day-dot {
+  width: 8rpx;
+  height: 8rpx;
+  border-radius: 50%;
+  background: #e5e5e5;
+  margin-top: 6rpx;
+}
+
+.day-disabled .day-label {
+  color: #cccccc;
+}
+
+.day-today .day-label {
+  color: #07c160;
+  font-weight: 700;
+}
+
+.day-selected {
+  background: rgba(7, 193, 96, 0.12);
+}
+
+.day-selected .day-label {
+  color: #07c160;
+  font-weight: 700;
+}
+
+.list-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8rpx 32rpx 16rpx 32rpx;
+  font-size: 24rpx;
+  color: #888888;
+}
+
+.list-total {
+  font-weight: 600;
+  color: #555555;
+}
+
+.list-hint {
+  color: #bbbbbb;
+}
+
+/* 状态 */
+.state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60rpx 48rpx;
+}
+
+.state-text {
+  font-size: 30rpx;
+  color: #666666;
+}
+
+.state-sub {
+  margin-top: 12rpx;
+  font-size: 24rpx;
+  color: #aaaaaa;
+}
+
+.state-btn {
+  margin-top: 32rpx;
+  padding: 16rpx 48rpx;
+  font-size: 26rpx;
+  color: #07c160;
+  border: 1rpx solid #07c160;
+  border-radius: 999rpx;
+}
+
+/* 骨架屏 */
+.skeleton {
+  padding: 0 24rpx;
+}
+
+.sk-card {
+  background: #ffffff;
+  border-radius: 20rpx;
+  padding: 28rpx 24rpx;
+}
+
+.sk-line {
+  background: #f0f0f0;
+  border-radius: 8rpx;
+  height: 30rpx;
+  margin-bottom: 16rpx;
+}
+
+.sk-title {
+  width: 88%;
+}
+
+.sk-sub {
+  width: 50%;
+  height: 24rpx;
+  margin-bottom: 0;
+}

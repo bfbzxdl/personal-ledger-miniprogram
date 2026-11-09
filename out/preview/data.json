@@ -1,0 +1,738 @@
+{
+  "generatedAt": "2026-11-08T17:08:10.892Z",
+  "day": "2026-11-09",
+  "list": {
+    "items": [
+      {
+        "id": "fake_34",
+        "title": "A股反弹行情能走多远？投资主线有哪些？十大券商策略来了",
+        "sourceName": "财联社",
+        "category": "finance",
+        "publishedAt": 1794157676409,
+        "summary": "",
+        "tags": [],
+        "sourceCount": 2,
+        "hotScore": 77
+      },
+      {
+        "id": "fake_297",
+        "title": "山西太原一公寓发生火灾 致5人遇难",
+        "sourceName": "中国新闻网",
+        "category": "general",
+        "publishedAt": 1794149377000,
+        "summary": "中新网太原11月8日电 (记者 胡健)山西省太原市“迎泽发布”8日晚间发布通报称，当日发生在迎泽区的火灾致5人遇难。",
+        "tags": [],
+        "sourceCount": 2,
+        "hotScore": 75
+      },
+      {
+        "id": "fake_13",
+        "title": "埃及列车脱轨事故致司机死亡",
+        "sourceName": "界面新闻",
+        "category": "finance",
+        "publishedAt": 1794143050000,
+        "summary": "",
+        "tags": [],
+        "sourceCount": 2,
+        "hotScore": 75
+      },
+      {
+        "id": "fake_19",
+        "title": "埃及发生列车脱轨事故致至少50人受伤",
+        "sourceName": "界面新闻",
+        "category": "finance",
+        "publishedAt": 1794141897000,
+        "summary": "",
+        "tags": [],
+        "sourceCount": 2,
+        "hotScore": 74
+      },
+      {
+        "id": "fake_30",
+        "title": "Anthropic斥资34亿美元采购天然气发电设备，为数据中心供电",
+        "sourceName": "界面新闻",
+        "category": "finance",
+        "publishedAt": 1794136258000,
+        "summary": "11月8日，据报道，人工智能公司Anthropic于9月与美国得克萨斯州设备供应商OnePWR Solutions达成34亿美元交易，采购总装机容量达1.7吉瓦的重型发电机组。交易还包括安装发电机所需的工程和施工能力，但不涉及收购OnePW",
+        "tags": [],
+        "sourceCount": 2,
+        "hotScore": 73
+      },
+      {
+        "id": "fake_331",
+        "title": "萧山医保让参保更便捷",
+        "sourceName": "杭州市政府门户",
+        "category": "hangzhou",
+        "publishedAt": 1794157676409,
+        "summary": "",
+        "tags": [
+          "社保医保"
+        ],
+        "sourceCount": 1,
+        "hotScore": 72
+      },
+      {
+        "id": "fake_353",
+        "title": "杭州市2026年“社保服务进万家”活动集...",
+        "sourceName": "杭州市人社局",
+        "category": "hangzhou",
+        "publishedAt": 1794157676409,
+        "summary": "",
+        "tags": [
+          "社保医保"
+        ],
+        "sourceCount": 1,
+        "hotScore": 71
+      },
+      {
+        "id": "fake_356",
+        "title": "2026年“社保服务进万家”全城启动",
+        "sourceName": "杭州市人社局",
+        "category": "hangzhou",
+        "publishedAt": 1794157676409,
+        "summary": "",
+        "tags": [
+          "社保医保"
+        ],
+        "sourceCount": 1,
+        "hotScore": 71
+      },
+      {
+        "id": "fake_380",
+        "title": "杭州六区、县（市）购房有补贴，赶紧看...",
+        "sourceName": "杭州住保房管局",
+        "category": "hangzhou",
+        "publishedAt": 1794157676409,
+        "summary": "",
+        "tags": [
+          "住房",
+          "补贴消费券"
+        ],
+        "sourceCount": 1,
+        "hotScore": 71
+      },
+      {
+        "id": "fake_384",
+        "title": "4395套！新一期市本级公租房实物配租预登记今天开始",
+        "sourceName": "杭州住保房管局",
+        "category": "hangzhou",
+        "publishedAt": 1794157676409,
+        "summary": "",
+        "tags": [
+          "住房"
+        ],
+        "sourceCount": 1,
+        "hotScore": 71
+      },
+      {
+        "id": "fake_385",
+        "title": "租赁备案办理点位置",
+        "sourceName": "杭州住保房管局",
+        "category": "hangzhou",
+        "publishedAt": 1794157676409,
+        "summary": "",
+        "tags": [
+          "政务办事"
+        ],
+        "sourceCount": 1,
+        "hotScore": 71
+      },
+      {
+        "id": "fake_31",
+        "title": "美股盘前要闻一览：AI硬件股集体反弹；英伟达拟将老旧机房改造为小型AI数据中心；投资大佬警告英伟达的循环融资终迎泡沫破灭",
+        "sourceName": "财联社",
+        "category": "finance",
+        "publishedAt": 1794157676409,
+        "summary": "",
+        "tags": [],
+        "sourceCount": 1,
+        "hotScore": 66
+      },
+      {
+        "id": "fake_32",
+        "title": "周末要闻汇总：国常会就资本市场平稳健康发展作出部署",
+        "sourceName": "财联社",
+        "category": "finance",
+        "publishedAt": 1794157676409,
+        "summary": "",
+        "tags": [],
+        "sourceCount": 1,
+        "hotScore": 66
+      },
+      {
+        "id": "fake_33",
+        "title": "具身智能数据赛道“变天” 百万小时供给难解上亿小时需求",
+        "sourceName": "财联社",
+        "category": "finance",
+        "publishedAt": 1794157676409,
+        "summary": "",
+        "tags": [],
+        "sourceCount": 1,
+        "hotScore": 66
+      },
+      {
+        "id": "fake_35",
+        "title": "券商密集研判A股：稳市资金是关键变量，科技反弹看新催化",
+        "sourceName": "财联社",
+        "category": "finance",
+        "publishedAt": 1794157676409,
+        "summary": "",
+        "tags": [],
+        "sourceCount": 1,
+        "hotScore": 66
+      },
+      {
+        "id": "fake_36",
+        "title": "英伟达超7600万元货物离奇失踪",
+        "sourceName": "财联社",
+        "category": "finance",
+        "publishedAt": 1794157676409,
+        "summary": "",
+        "tags": [],
+        "sourceCount": 1,
+        "hotScore": 66
+      },
+      {
+        "id": "fake_37",
+        "title": "千公里仅3.43毫秒！我国新一代通信网技术取得新突破",
+        "sourceName": "财联社",
+        "category": "finance",
+        "publishedAt": 1794157676409,
+        "summary": "",
+        "tags": [],
+        "sourceCount": 1,
+        "hotScore": 66
+      },
+      {
+        "id": "fake_38",
+        "title": "机器人“大脑”再添新变量 规模上岗还差“最后几毫米”？",
+        "sourceName": "财联社",
+        "category": "finance",
+        "publishedAt": 1794157676409,
+        "summary": "",
+        "tags": [],
+        "sourceCount": 1,
+        "hotScore": 66
+      },
+      {
+        "id": "fake_39",
+        "title": "国产智能喂鸟器全球卖爆了",
+        "sourceName": "财联社",
+        "category": "finance",
+        "publishedAt": 1794157676409,
+        "summary": "",
+        "tags": [],
+        "sourceCount": 1,
+        "hotScore": 66
+      },
+      {
+        "id": "fake_40",
+        "title": "“一周内注意防范强烈地震”！中国驻名古屋总领馆紧急提醒",
+        "sourceName": "财联社",
+        "category": "finance",
+        "publishedAt": 1794157676409,
+        "summary": "",
+        "tags": [],
+        "sourceCount": 1,
+        "hotScore": 66
+      }
+    ],
+    "total": 330,
+    "hasMore": true,
+    "day": "2026-11-09",
+    "updatedAt": 1794157676409,
+    "page": 1,
+    "pageSize": 20,
+    "fallback": false
+  },
+  "trends": {
+    "day": "2026-11-09",
+    "items": [
+      {
+        "rank": 1,
+        "title": "感悟五年规划的中国智慧",
+        "url": "https://www.baidu.com/s?wd=%E6%84%9F%E6%82%9F%E4%BA%94%E5%B9%B4%E8%A7%84%E5%88%92%E7%9A%84%E4%B8%AD%E5%9B%BD%E6%99%BA%E6%85%A7&sa=fyb_news&rsv_dl=fyb_news"
+      },
+      {
+        "rank": 2,
+        "title": "油价一周暴跌超16%",
+        "url": "https://www.baidu.com/s?wd=%E6%B2%B9%E4%BB%B7%E4%B8%80%E5%91%A8%E6%9A%B4%E8%B7%8C%E8%B6%8516%25&sa=fyb_news&rsv_dl=fyb_news"
+      },
+      {
+        "rank": 3,
+        "title": "大连英博夺得中超冠军",
+        "url": "https://www.baidu.com/s?wd=%E5%A4%A7%E8%BF%9E%E8%8B%B1%E5%8D%9A%E5%A4%BA%E5%BE%97%E4%B8%AD%E8%B6%85%E5%86%A0%E5%86%9B&sa=fyb_news&rsv_dl=fyb_news"
+      },
+      {
+        "rank": 4,
+        "title": "红色新闻人的浴血征程",
+        "url": "https://www.baidu.com/s?wd=%E7%BA%A2%E8%89%B2%E6%96%B0%E9%97%BB%E4%BA%BA%E7%9A%84%E6%B5%B4%E8%A1%80%E5%BE%81%E7%A8%8B&sa=fyb_news&rsv_dl=fyb_news"
+      },
+      {
+        "rank": 5,
+        "title": "疑秦始皇儿子头骨面容复原图公布",
+        "url": "https://www.baidu.com/s?wd=%E7%96%91%E7%A7%A6%E5%A7%8B%E7%9A%87%E5%84%BF%E5%AD%90%E5%A4%B4%E9%AA%A8%E9%9D%A2%E5%AE%B9%E5%A4%8D%E5%8E%9F%E5%9B%BE%E5%85%AC%E5%B8%83&sa=fyb_news&rsv_dl=fyb_news"
+      },
+      {
+        "rank": 6,
+        "title": "蓉城主帅：我非常失望非常绝望",
+        "url": "https://www.baidu.com/s?wd=%E8%93%89%E5%9F%8E%E4%B8%BB%E5%B8%85%EF%BC%9A%E6%88%91%E9%9D%9E%E5%B8%B8%E5%A4%B1%E6%9C%9B%E9%9D%9E%E5%B8%B8%E7%BB%9D%E6%9C%9B&sa=fyb_news&rsv_dl=fyb_news"
+      },
+      {
+        "rank": 7,
+        "title": "20公斤陨石砸进石家庄农田",
+        "url": "https://www.baidu.com/s?wd=20%E5%85%AC%E6%96%A4%E9%99%A8%E7%9F%B3%E7%A0%B8%E8%BF%9B%E7%9F%B3%E5%AE%B6%E5%BA%84%E5%86%9C%E7%94%B0&sa=fyb_news&rsv_dl=fyb_news"
+      },
+      {
+        "rank": 8,
+        "title": "72岁赵雅芝原相机状态",
+        "url": "https://www.baidu.com/s?wd=72%E5%B2%81%E8%B5%B5%E9%9B%85%E8%8A%9D%E5%8E%9F%E7%9B%B8%E6%9C%BA%E7%8A%B6%E6%80%81&sa=fyb_news&rsv_dl=fyb_news"
+      },
+      {
+        "rank": 9,
+        "title": "立冬后建议改一下睡觉时间",
+        "url": "https://www.baidu.com/s?wd=%E7%AB%8B%E5%86%AC%E5%90%8E%E5%BB%BA%E8%AE%AE%E6%94%B9%E4%B8%80%E4%B8%8B%E7%9D%A1%E8%A7%89%E6%97%B6%E9%97%B4&sa=fyb_news&rsv_dl=fyb_news"
+      },
+      {
+        "rank": 10,
+        "title": "秦皇岛暴雪160斤男子被吹出电音",
+        "url": "https://www.baidu.com/s?wd=%E7%A7%A6%E7%9A%87%E5%B2%9B%E6%9A%B4%E9%9B%AA160%E6%96%A4%E7%94%B7%E5%AD%90%E8%A2%AB%E5%90%B9%E5%87%BA%E7%94%B5%E9%9F%B3&sa=fyb_news&rsv_dl=fyb_news"
+      }
+    ]
+  },
+  "hot": {
+    "day": "2026-11-09",
+    "items": [
+      {
+        "id": "fake_34",
+        "title": "A股反弹行情能走多远？投资主线有哪些？十大券商策略来了",
+        "sourceName": "财联社",
+        "category": "finance",
+        "publishedAt": 1794157676409,
+        "summary": "",
+        "tags": [],
+        "sourceCount": 2,
+        "hotScore": 77,
+        "rank": 1,
+        "change": "new",
+        "delta": 0
+      },
+      {
+        "id": "fake_297",
+        "title": "山西太原一公寓发生火灾 致5人遇难",
+        "sourceName": "中国新闻网",
+        "category": "general",
+        "publishedAt": 1794149377000,
+        "summary": "中新网太原11月8日电 (记者 胡健)山西省太原市“迎泽发布”8日晚间发布通报称，当日发生在迎泽区的火灾致5人遇难。",
+        "tags": [],
+        "sourceCount": 2,
+        "hotScore": 75,
+        "rank": 2,
+        "change": "new",
+        "delta": 0
+      },
+      {
+        "id": "fake_13",
+        "title": "埃及列车脱轨事故致司机死亡",
+        "sourceName": "界面新闻",
+        "category": "finance",
+        "publishedAt": 1794143050000,
+        "summary": "",
+        "tags": [],
+        "sourceCount": 2,
+        "hotScore": 75,
+        "rank": 3,
+        "change": "new",
+        "delta": 0
+      },
+      {
+        "id": "fake_19",
+        "title": "埃及发生列车脱轨事故致至少50人受伤",
+        "sourceName": "界面新闻",
+        "category": "finance",
+        "publishedAt": 1794141897000,
+        "summary": "",
+        "tags": [],
+        "sourceCount": 2,
+        "hotScore": 74,
+        "rank": 4,
+        "change": "new",
+        "delta": 0
+      },
+      {
+        "id": "fake_30",
+        "title": "Anthropic斥资34亿美元采购天然气发电设备，为数据中心供电",
+        "sourceName": "界面新闻",
+        "category": "finance",
+        "publishedAt": 1794136258000,
+        "summary": "11月8日，据报道，人工智能公司Anthropic于9月与美国得克萨斯州设备供应商OnePWR Solutions达成34亿美元交易，采购总装机容量达1.7吉瓦的重型发电机组。交易还包括安装发电机所需的工程和施工能力，但不涉及收购OnePW",
+        "tags": [],
+        "sourceCount": 2,
+        "hotScore": 73,
+        "rank": 5,
+        "change": "new",
+        "delta": 0
+      },
+      {
+        "id": "fake_331",
+        "title": "萧山医保让参保更便捷",
+        "sourceName": "杭州市政府门户",
+        "category": "hangzhou",
+        "publishedAt": 1794157676409,
+        "summary": "",
+        "tags": [
+          "社保医保"
+        ],
+        "sourceCount": 1,
+        "hotScore": 72,
+        "rank": 6,
+        "change": "new",
+        "delta": 0
+      },
+      {
+        "id": "fake_353",
+        "title": "杭州市2026年“社保服务进万家”活动集...",
+        "sourceName": "杭州市人社局",
+        "category": "hangzhou",
+        "publishedAt": 1794157676409,
+        "summary": "",
+        "tags": [
+          "社保医保"
+        ],
+        "sourceCount": 1,
+        "hotScore": 71,
+        "rank": 7,
+        "change": "new",
+        "delta": 0
+      },
+      {
+        "id": "fake_356",
+        "title": "2026年“社保服务进万家”全城启动",
+        "sourceName": "杭州市人社局",
+        "category": "hangzhou",
+        "publishedAt": 1794157676409,
+        "summary": "",
+        "tags": [
+          "社保医保"
+        ],
+        "sourceCount": 1,
+        "hotScore": 71,
+        "rank": 8,
+        "change": "new",
+        "delta": 0
+      },
+      {
+        "id": "fake_380",
+        "title": "杭州六区、县（市）购房有补贴，赶紧看...",
+        "sourceName": "杭州住保房管局",
+        "category": "hangzhou",
+        "publishedAt": 1794157676409,
+        "summary": "",
+        "tags": [
+          "住房",
+          "补贴消费券"
+        ],
+        "sourceCount": 1,
+        "hotScore": 71,
+        "rank": 9,
+        "change": "new",
+        "delta": 0
+      },
+      {
+        "id": "fake_384",
+        "title": "4395套！新一期市本级公租房实物配租预登记今天开始",
+        "sourceName": "杭州住保房管局",
+        "category": "hangzhou",
+        "publishedAt": 1794157676409,
+        "summary": "",
+        "tags": [
+          "住房"
+        ],
+        "sourceCount": 1,
+        "hotScore": 71,
+        "rank": 10,
+        "change": "new",
+        "delta": 0
+      }
+    ]
+  },
+  "detail": {
+    "news": {
+      "id": "fake_34",
+      "title": "A股反弹行情能走多远？投资主线有哪些？十大券商策略来了",
+      "sourceName": "财联社",
+      "category": "finance",
+      "publishedAt": 1794157676409,
+      "summary": "",
+      "tags": [],
+      "sourceCount": 2,
+      "hotScore": 77,
+      "url": "https://www.cls.cn/detail/2528325",
+      "contentHtml": "",
+      "eventId": "fake_34",
+      "fetchedAt": 1794157676409
+    },
+    "related": [
+      {
+        "id": "fake_61",
+        "title": "A股反弹行情能走多远？十大券商策略来了",
+        "sourceName": "凤凰财经",
+        "category": "finance",
+        "publishedAt": 1794157676409,
+        "summary": "",
+        "tags": [],
+        "sourceCount": 2,
+        "hotScore": 77
+      }
+    ]
+  },
+  "archive": {
+    "calendar": {
+      "month": "2026-11",
+      "days": [
+        "2026-11-09"
+      ],
+      "counts": {
+        "2026-11-09": 330
+      },
+      "minDay": "2026-08-11",
+      "maxDay": "2026-11-09"
+    },
+    "items": [
+      {
+        "id": "fake_34",
+        "title": "A股反弹行情能走多远？投资主线有哪些？十大券商策略来了",
+        "sourceName": "财联社",
+        "category": "finance",
+        "publishedAt": 1794157676409,
+        "summary": "",
+        "tags": [],
+        "sourceCount": 2,
+        "hotScore": 77
+      },
+      {
+        "id": "fake_297",
+        "title": "山西太原一公寓发生火灾 致5人遇难",
+        "sourceName": "中国新闻网",
+        "category": "general",
+        "publishedAt": 1794149377000,
+        "summary": "中新网太原11月8日电 (记者 胡健)山西省太原市“迎泽发布”8日晚间发布通报称，当日发生在迎泽区的火灾致5人遇难。",
+        "tags": [],
+        "sourceCount": 2,
+        "hotScore": 75
+      },
+      {
+        "id": "fake_13",
+        "title": "埃及列车脱轨事故致司机死亡",
+        "sourceName": "界面新闻",
+        "category": "finance",
+        "publishedAt": 1794143050000,
+        "summary": "",
+        "tags": [],
+        "sourceCount": 2,
+        "hotScore": 75
+      },
+      {
+        "id": "fake_19",
+        "title": "埃及发生列车脱轨事故致至少50人受伤",
+        "sourceName": "界面新闻",
+        "category": "finance",
+        "publishedAt": 1794141897000,
+        "summary": "",
+        "tags": [],
+        "sourceCount": 2,
+        "hotScore": 74
+      },
+      {
+        "id": "fake_30",
+        "title": "Anthropic斥资34亿美元采购天然气发电设备，为数据中心供电",
+        "sourceName": "界面新闻",
+        "category": "finance",
+        "publishedAt": 1794136258000,
+        "summary": "11月8日，据报道，人工智能公司Anthropic于9月与美国得克萨斯州设备供应商OnePWR Solutions达成34亿美元交易，采购总装机容量达1.7吉瓦的重型发电机组。交易还包括安装发电机所需的工程和施工能力，但不涉及收购OnePW",
+        "tags": [],
+        "sourceCount": 2,
+        "hotScore": 73
+      },
+      {
+        "id": "fake_331",
+        "title": "萧山医保让参保更便捷",
+        "sourceName": "杭州市政府门户",
+        "category": "hangzhou",
+        "publishedAt": 1794157676409,
+        "summary": "",
+        "tags": [
+          "社保医保"
+        ],
+        "sourceCount": 1,
+        "hotScore": 72
+      },
+      {
+        "id": "fake_353",
+        "title": "杭州市2026年“社保服务进万家”活动集...",
+        "sourceName": "杭州市人社局",
+        "category": "hangzhou",
+        "publishedAt": 1794157676409,
+        "summary": "",
+        "tags": [
+          "社保医保"
+        ],
+        "sourceCount": 1,
+        "hotScore": 71
+      },
+      {
+        "id": "fake_356",
+        "title": "2026年“社保服务进万家”全城启动",
+        "sourceName": "杭州市人社局",
+        "category": "hangzhou",
+        "publishedAt": 1794157676409,
+        "summary": "",
+        "tags": [
+          "社保医保"
+        ],
+        "sourceCount": 1,
+        "hotScore": 71
+      },
+      {
+        "id": "fake_380",
+        "title": "杭州六区、县（市）购房有补贴，赶紧看...",
+        "sourceName": "杭州住保房管局",
+        "category": "hangzhou",
+        "publishedAt": 1794157676409,
+        "summary": "",
+        "tags": [
+          "住房",
+          "补贴消费券"
+        ],
+        "sourceCount": 1,
+        "hotScore": 71
+      },
+      {
+        "id": "fake_384",
+        "title": "4395套！新一期市本级公租房实物配租预登记今天开始",
+        "sourceName": "杭州住保房管局",
+        "category": "hangzhou",
+        "publishedAt": 1794157676409,
+        "summary": "",
+        "tags": [
+          "住房"
+        ],
+        "sourceCount": 1,
+        "hotScore": 71
+      },
+      {
+        "id": "fake_385",
+        "title": "租赁备案办理点位置",
+        "sourceName": "杭州住保房管局",
+        "category": "hangzhou",
+        "publishedAt": 1794157676409,
+        "summary": "",
+        "tags": [
+          "政务办事"
+        ],
+        "sourceCount": 1,
+        "hotScore": 71
+      },
+      {
+        "id": "fake_31",
+        "title": "美股盘前要闻一览：AI硬件股集体反弹；英伟达拟将老旧机房改造为小型AI数据中心；投资大佬警告英伟达的循环融资终迎泡沫破灭",
+        "sourceName": "财联社",
+        "category": "finance",
+        "publishedAt": 1794157676409,
+        "summary": "",
+        "tags": [],
+        "sourceCount": 1,
+        "hotScore": 66
+      },
+      {
+        "id": "fake_32",
+        "title": "周末要闻汇总：国常会就资本市场平稳健康发展作出部署",
+        "sourceName": "财联社",
+        "category": "finance",
+        "publishedAt": 1794157676409,
+        "summary": "",
+        "tags": [],
+        "sourceCount": 1,
+        "hotScore": 66
+      },
+      {
+        "id": "fake_33",
+        "title": "具身智能数据赛道“变天” 百万小时供给难解上亿小时需求",
+        "sourceName": "财联社",
+        "category": "finance",
+        "publishedAt": 1794157676409,
+        "summary": "",
+        "tags": [],
+        "sourceCount": 1,
+        "hotScore": 66
+      },
+      {
+        "id": "fake_35",
+        "title": "券商密集研判A股：稳市资金是关键变量，科技反弹看新催化",
+        "sourceName": "财联社",
+        "category": "finance",
+        "publishedAt": 1794157676409,
+        "summary": "",
+        "tags": [],
+        "sourceCount": 1,
+        "hotScore": 66
+      },
+      {
+        "id": "fake_36",
+        "title": "英伟达超7600万元货物离奇失踪",
+        "sourceName": "财联社",
+        "category": "finance",
+        "publishedAt": 1794157676409,
+        "summary": "",
+        "tags": [],
+        "sourceCount": 1,
+        "hotScore": 66
+      },
+      {
+        "id": "fake_37",
+        "title": "千公里仅3.43毫秒！我国新一代通信网技术取得新突破",
+        "sourceName": "财联社",
+        "category": "finance",
+        "publishedAt": 1794157676409,
+        "summary": "",
+        "tags": [],
+        "sourceCount": 1,
+        "hotScore": 66
+      },
+      {
+        "id": "fake_38",
+        "title": "机器人“大脑”再添新变量 规模上岗还差“最后几毫米”？",
+        "sourceName": "财联社",
+        "category": "finance",
+        "publishedAt": 1794157676409,
+        "summary": "",
+        "tags": [],
+        "sourceCount": 1,
+        "hotScore": 66
+      },
+      {
+        "id": "fake_39",
+        "title": "国产智能喂鸟器全球卖爆了",
+        "sourceName": "财联社",
+        "category": "finance",
+        "publishedAt": 1794157676409,
+        "summary": "",
+        "tags": [],
+        "sourceCount": 1,
+        "hotScore": 66
+      },
+      {
+        "id": "fake_40",
+        "title": "“一周内注意防范强烈地震”！中国驻名古屋总领馆紧急提醒",
+        "sourceName": "财联社",
+        "category": "finance",
+        "publishedAt": 1794157676409,
+        "summary": "",
+        "tags": [],
+        "sourceCount": 1,
+        "hotScore": 66
+      }
+    ],
+    "total": 330
+  }
+}
